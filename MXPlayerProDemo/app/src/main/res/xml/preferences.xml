@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:icon="@drawable/ic_menu_list" android:title="@string/cfg_list">
+        <intent android:targetPackage="@string/package_name" android:action="android.intent.action.VIEW" android:targetClass="com.mxtech.videoplayer.preference.ListPreferences"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/ic_menu_play" android:title="@string/cfg_player">
+        <intent android:targetPackage="@string/package_name" android:action="android.intent.action.VIEW" android:targetClass="com.mxtech.videoplayer.preference.PlayerPreferences"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/ic_menu_manage" android:title="@string/decoder">
+        <intent android:targetPackage="@string/package_name" android:action="android.intent.action.VIEW" android:targetClass="com.mxtech.videoplayer.preference.DecoderPreferences"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/ic_menu_music" android:title="@string/audio">
+        <intent android:targetPackage="@string/package_name" android:action="android.intent.action.VIEW" android:targetClass="com.mxtech.videoplayer.preference.AudioPreferences"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/ic_menu_subtitle" android:title="@string/subtitle">
+        <intent android:targetPackage="@string/package_name" android:action="android.intent.action.VIEW" android:targetClass="com.mxtech.videoplayer.preference.SubtitlePreferences"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/ic_menu_general" android:title="@string/cfg_general">
+        <intent android:targetPackage="@string/package_name" android:action="android.intent.action.VIEW" android:targetClass="com.mxtech.videoplayer.preference.GeneralPreferences"/>
+    </PreferenceScreen>
+</PreferenceScreen>

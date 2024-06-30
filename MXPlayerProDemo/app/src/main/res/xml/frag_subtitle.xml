@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mxtech.preference.AppCompatPreference android:title="@string/subtitle_folder" android:key="subtitle_folder" android:summary="@string/subtitle_folder_summary"/>
+    <com.mxtech.preference.AppCompatListPreference android:title="@string/cfg_subtitle_charset" android:key="subtitle_charset" android:summary="@string/cfg_subtitle_charset_summary" android:defaultValue="" android:dialogTitle="@string/cfg_subtitle_charset"/>
+    <com.mxtech.videoplayer.preference.LocaleSelectorPreference android:title="@string/subtitle_language" android:key="subtitle_language" android:summary="@string/subtitle_language_summary"/>
+    <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/subtitle_show_hw" android:key="subtitle_show_hw" android:summary="@string/subtitle_show_hw_summary" android:defaultValue="false"/>
+    <com.mxtech.preference.EditFloatPreference android:numeric="decimal" android:title="@string/default_sync" android:key="subtitle_default_sync" android:summary="@string/default_subtitle_sync_summary" android:defaultValue="0" android:dialogMessage="@string/calibrate_hw_play_position_message"/>
+    <com.mxtech.preference.EditFloatPreference android:numeric="decimal" android:title="@string/subtitle_sync_hw" android:key="calibrate_hw_play_position" android:summary="@string/subtitle_sync_hw_summary" android:defaultValue="0" android:dialogMessage="@string/calibrate_hw_play_position_message"/>
+    <PreferenceCategory android:title="@string/appearance" android:key="category_subtitle_appearance">
+        <com.mxtech.videoplayer.preference.TunerSubtitleText android:persistent="false" android:title="@string/cfg_tuner_subtitle_text" android:key="tuner_subtitle_text" android:summary="@string/cfg_tuner_subtitle_text_summary" android:dialogLayout="@layout/tuner_subtitle_text"/>
+        <com.mxtech.videoplayer.preference.TunerSubtitleLayout android:title="@string/cfg_tuner_subtitle_layout" android:summary="@string/cfg_tuner_subtitle_layout_summary" android:dialogLayout="@layout/tuner_subtitle_layout"/>
+        <com.mxtech.preference.AppCompatPreference android:title="@string/font_folder" android:key="typeface_dir"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/hw_accel" android:key="subtitle_hw_accel" android:summary="@string/playback_screen_hw_accel_summary" android:defaultValue="true" android:minSdkVersion="11" app:dispose="@bool/default_hardware_acceleration"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/text_processing">
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/cfg_italic_tag" android:key="italic_tag" android:summary="@string/cfg_italic_tag_summary" android:defaultValue="false"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/force_ltr_text_direction" android:key="force_ltr" android:summary="@string/force_ltr_text_direction_summary" android:defaultValue="true" android:minSdkVersion="17"/>
+    </PreferenceCategory>
+</PreferenceScreen>

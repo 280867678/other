@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="overscanMarginHorizontal">0px</dimen>
+    <dimen name="overscanMarginVertical">0px</dimen>
+
+
+</resources>

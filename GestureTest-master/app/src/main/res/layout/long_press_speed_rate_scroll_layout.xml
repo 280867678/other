@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_speed_rate_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/vod_player_longpress_popup_bg"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/speed_rate_icon_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/speed_rate_text_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="x1.25"
+            android:textColor="@color/media_player_text_white"
+            android:textSize="12sp" />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/speed_rate_tip_0"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_gravity="top"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:src="@drawable/vod_vip_round_ic"-->
+<!--            android:visibility="gone" />-->
+
+        <ImageView
+            android:id="@+id/speed_rate_icon_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp" />
+
+        <TextView
+            android:id="@+id/speed_rate_text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="x1.5"
+            android:textColor="@color/media_player_text_white"
+            android:textSize="12sp" />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/speed_rate_tip_1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_gravity="top"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:src="@drawable/vod_vip_round_ic"-->
+<!--            android:visibility="gone" />-->
+
+        <ImageView
+            android:id="@+id/speed_rate_icon_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp" />
+
+        <TextView
+            android:id="@+id/speed_rate_text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="x2.0"
+            android:textColor="@color/ui_vip_gold_C37B"
+            android:textSize="12sp" />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/speed_rate_tip_2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_gravity="top"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:src="@drawable/vod_vip_round_ic"-->
+<!--            android:visibility="visible" />-->
+
+        <ImageView
+            android:id="@+id/speed_rate_icon_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp" />
+
+        <TextView
+            android:id="@+id/speed_rate_text_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="x3.0"
+            android:textColor="@color/ui_vip_gold_C37B"
+            android:textSize="12sp" />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/speed_rate_tip_3"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_gravity="top"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:src="@drawable/vod_super_vip_round_ic"-->
+<!--            android:visibility="visible" />-->
+
+        <ImageView
+            android:id="@+id/speed_rate_icon_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp" />
+
+        <TextView
+            android:id="@+id/speed_rate_text_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="x4.0"
+            android:textColor="@color/ui_vip_gold_C37B"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/speed_rate_tip_4"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_gravity="top"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginRight="2dp"-->
+<!--            android:src="@drawable/vod_super_vip_round_ic"-->
+<!--            android:visibility="gone" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/speed_rate_year_tip_4"-->
+<!--            android:layout_width="15dp"-->
+<!--            android:layout_height="12dp"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_gravity="top"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:src="@drawable/speed_rate_year_vip_ic"-->
+<!--            android:visibility="gone" />-->
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/long_press_speed_rate_scroll_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:shadowColor="@color/media_player_white_30"
+        android:text="长按时，左右拖动可切换倍速"
+        android:textColor="@color/media_player_text_white"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@+id/button_layout"
+        app:layout_constraintRight_toRightOf="@+id/button_layout"
+        app:layout_constraintTop_toBottomOf="@+id/button_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/task_card_bkg">
+
+    <FrameLayout
+        android:id="@+id/select_btn_container"
+        android:layout_width="42dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="end"
+        android:background="@color/white"
+        android:paddingRight="@dimen/task_card_padding"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/edit_mode_select_btn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:src="@drawable/big_unselected"
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/taskItemLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/task_card_padding"
+        android:layout_toLeftOf="@+id/select_btn_container"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/task_card_padding"
+        android:paddingTop="@dimen/task_card_padding"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:id="@+id/iconImageView"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="top"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_dl_video" />
+
+        <LinearLayout
+            android:id="@+id/task_icon_title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="@dimen/task_card_padding"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                style="@style/TaskCardTitleTextAppearance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lineSpacingExtra="@dimen/task_item_card_download_item_title_line_spacing_extra"
+                android:maxLines="4"
+                android:paddingTop="0dp"
+                android:text="@string/app_name" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp">
+
+                <LinearLayout
+                    android:id="@+id/openContainer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/task_card_button_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/task_btn_normal_blue_bg"
+                    android:clickable="false"
+                    android:duplicateParentState="false"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/open_icon"
+                        android:layout_width="14dp"
+                        android:layout_height="14dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="4dp"
+                        android:src="@drawable/download_detail_play" />
+
+                    <TextView
+                        android:id="@+id/open_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:paddingRight="6dp"
+                        android:text="播放"
+                        android:textColor="@color/white"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp">
+
+                    <TextView
+                        android:id="@+id/tagEpisode"
+                        style="@style/DownloadTaskItemTagAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/task_item_card_download_item_tag_interval"
+                        android:text="第一季"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tagSize"
+                        style="@style/DownloadTaskItemTagAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/task_item_card_download_item_tag_interval"
+                        android:text="0 MB" />
+
+                    <TextView
+                        android:id="@+id/speedTextView"
+                        style="@style/DownloadTaskItemSecondaryTitleTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0 KB/s"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/statusTextView"
+                        style="@style/DownloadTaskItemSecondaryTitleTextAppearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/download_item_task_status_waiting"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="13dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_toLeftOf="@+id/openContainer"
+                    android:max="100"
+                    android:progress="60"
+                    android:progressDrawable="@drawable/download_task_progress_disable"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/play_flag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:text="播放完毕"
+                    android:textColor="@color/DownloadTaskItemStatusTextColor"
+                    android:textSize="10sp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/line"
+        layout="@layout/line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/taskItemLayout"
+        android:layout_marginLeft="@dimen/task_card_padding"
+        android:layout_marginRight="@dimen/task_card_padding" />
+
+    <TextView
+        android:id="@+id/bt_expand_white_space"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/line"
+        android:visibility="gone" />
+</RelativeLayout>

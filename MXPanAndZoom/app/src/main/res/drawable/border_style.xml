@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="#00000000" /> <!-- 边框填充色 -->
+    <stroke
+        android:width="20dp"
+        android:color="#FF0000" />
+</shape>

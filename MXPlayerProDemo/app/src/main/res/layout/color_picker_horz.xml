@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="horizontal" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.mxtech.widget.ColorPicker2 android:id="@+id/picker" android:layout_width="wrap_content" android:layout_height="wrap_content" app:bar_orientation_horizontal="false" app:color_pointer_radius="15dp" app:color_pointer_halo_radius="19dp"/>
+    <com.mxtech.widget.SaturationBar2 android:id="@+id/saturation_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" app:bar_pointer_halo_radius="17dp" app:bar_orientation_horizontal="false"/>
+    <com.mxtech.widget.ValueBar2 android:id="@+id/value_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" app:bar_pointer_halo_radius="17dp" app:bar_orientation_horizontal="false"/>
+    <com.mxtech.widget.OpacityBar2 android:id="@+id/opacity_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" app:bar_pointer_halo_radius="17dp" app:bar_orientation_horizontal="false"/>
+    <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp">
+        <TableRow>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="R: "/>
+            <EditText android:id="@+id/red" android:nextFocusDown="@+id/green" style="@style/ColorPickerInputTextStyle"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="G: "/>
+            <EditText android:id="@+id/green" android:nextFocusDown="@+id/blue" style="@style/ColorPickerInputTextStyle"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="B: "/>
+            <EditText android:id="@+id/blue" android:nextFocusDown="@+id/alpha" style="@style/ColorPickerInputTextStyle"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:id="@+id/alpha_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A: "/>
+            <EditText android:id="@+id/alpha" style="@style/ColorPickerInputTextStyle"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

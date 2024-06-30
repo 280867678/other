@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="14dp" android:layout_marginBottom="8dp">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="26dp" android:paddingRight="26dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.mxtech.widget.DecorEditText android:id="@+id/username" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/username" android:singleLine="true" android:inputType="textEmailAddress" style="@style/DefaultDecorEditText"/>
+        <com.mxtech.widget.DecorEditText android:id="@+id/email_address" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/email_address" android:singleLine="true" android:inputType="textEmailAddress" app:met_helperText="" app:met_helperTextAlwaysShown="true" style="@style/DefaultDecorEditText"/>
+        <com.mxtech.widget.DecorEditText android:id="@+id/password" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/password" android:singleLine="true" android:inputType="textPassword" style="@style/DefaultDecorEditText"/>
+        <TextView android:textColor="@color/red_alert" android:id="@+id/warning" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.AppCompat.Small"/>
+    </LinearLayout>
+</ScrollView>

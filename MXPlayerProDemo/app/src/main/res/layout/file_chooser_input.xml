@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:minHeight="480dp">
+    <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="?android:attr/textColorTertiary" android:gravity="center" android:id="@+id/path" android:paddingLeft="2dp" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.mxtech.widget.ListView2 android:id="@+id/fileList" android:nextFocusRight="@android:id/button1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="12dp" android:divider="@null"/>
+</LinearLayout>

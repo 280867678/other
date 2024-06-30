@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_zoom_stretch" android:maxLevel="0"/>
+    <item android:drawable="@drawable/ic_zoom_inside" android:maxLevel="1"/>
+    <item android:drawable="@drawable/ic_zoom_original" android:maxLevel="2"/>
+    <item android:drawable="@drawable/ic_crop_white_24dp" android:maxLevel="3"/>
+</level-list>

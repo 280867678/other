@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:persistent="false" android:title="@string/appearance" android:key="category_list_appearance">
+        <com.mxtech.videoplayer.preference.ListThemePreference android:title="@string/list_theme" android:key="list.theme" android:defaultValue="@string/default_theme" android:entryValues="@array/list_theme_values"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/mark_last_played_media_for_each_folders" android:key="mark_last_played_media_for_each_folders" android:summary="@string/mark_last_played_media_for_each_folders_summary" android:defaultValue="true"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/scroll_down_to_last_media" android:key="scroll_down_to_last_media" android:summary="@string/scroll_down_to_last_media_summary" android:defaultValue="false"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/selection_mode" android:key="selection_mode" android:summary="@string/selection_mode_summary" android:defaultValue="false" app:requiredFeatures="touch_screen"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/list_floating_button" android:key="list.floating_action_button" android:summary="@string/list_floating_button_summary" android:defaultValue="true" app:requiredFeatures="touch_screen"/>
+        <com.mxtech.preference.AppCompatEditTextPreference android:singleLine="true" android:title="@string/cfg_new_tag" android:key="new_tagged_period" android:summary="@string/cfg_new_tag_summary" android:defaultValue="7" android:dialogMessage="@string/cfg_new_tag_dialog_message" android:inputType="date"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/scan">
+        <PreferenceScreen android:title="@string/cfg_scan_root" android:summary="@string/cfg_scan_root_summary" android:fragment="com.mxtech.videoplayer.preference.MediaDirectorySelector$Fragment">
+            <intent android:targetPackage="@string/package_name" android:action="android.intent.action.VIEW" android:targetClass="com.mxtech.videoplayer.preference.MediaDirectorySelector"/>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/cfg_video_file" android:summary="@string/cfg_video_file_summary" android:fragment="com.mxtech.videoplayer.preference.FileExtensionSelector$Fragment">
+            <intent android:targetPackage="@string/package_name" android:action="android.intent.action.VIEW" android:targetClass="com.mxtech.videoplayer.preference.FileExtensionSelector"/>
+        </PreferenceScreen>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/cfg_respect_nomedia" android:key="respect_nomedia" android:summary="@string/cfg_respect_nomedia_summary" android:defaultValue="true"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/cfg_show_hidden" android:key="show_hidden" android:summary="@string/cfg_show_hidden_summary" android:defaultValue="false"/>
+        <com.mxtech.preference.AppCompatMultiSelectListPreference android:entries="@array/list_refresh_methods" android:title="@string/list_refresh_interface" android:key="list.refresh_methods" android:summary="@string/list_refresh_interface_desc" android:defaultValue="@array/list_refresh_method_default" android:entryValues="@array/list_refresh_method_values" app:requiredFeatures="touch_screen"/>
+    </PreferenceCategory>
+</PreferenceScreen>

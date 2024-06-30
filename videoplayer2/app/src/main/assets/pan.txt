@@ -1,0 +1,1094 @@
+2024-02-09 15:27:42.696 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:42.697 30497-30497/com.mxtech.videoplayer.ad E/updateSizes::: updateSizes
+2024-02-09 15:27:42.778 30497-30497/com.mxtech.videoplayer.ad E/handleMessage::: 10
+2024-02-09 15:27:43.239 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 0
+2024-02-09 15:27:43.239 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:43.239 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.258 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 261
+2024-02-09 15:27:43.259 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:43.259 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.331 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.331 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:43.331 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.339 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.339 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.339 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.341 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.347 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.347 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.347 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.348 30497-30504/com.mxtech.videoplayer.ad I/art: Do partial code cache collection, code=121KB, data=116KB
+2024-02-09 15:27:43.349 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.349 30497-30504/com.mxtech.videoplayer.ad I/art: After code cache collection, code=117KB, data=113KB
+2024-02-09 15:27:43.349 30497-30504/com.mxtech.videoplayer.ad I/art: Increasing code cache capacity to 512KB
+2024-02-09 15:27:43.355 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.355 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.355 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.357 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.364 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.364 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.364 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.366 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.372 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.372 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.372 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.374 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.380 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.380 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.380 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.382 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.389 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.389 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.389 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.391 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.397 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.397 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.397 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.399 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.405 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.405 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.405 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.407 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.414 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.414 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.414 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.415 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.422 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.422 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.422 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.424 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.430 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.430 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.430 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.432 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.439 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.439 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.439 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.440 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.447 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.447 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.447 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.449 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.455 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.455 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.455 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.457 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.464 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.464 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.464 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.465 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.472 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.472 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.472 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.474 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.480 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.480 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.480 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.482 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.489 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.489 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.489 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.490 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.497 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.498 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.498 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.499 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.505 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.505 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.505 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.507 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.514 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.514 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.514 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.515 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.522 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.522 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.522 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.524 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.530 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.530 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.530 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.532 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.539 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.539 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.539 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.541 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.547 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.547 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.547 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.549 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.555 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.555 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.555 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.557 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.564 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.564 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.564 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.566 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.572 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.572 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.572 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.574 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.580 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.580 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.580 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.582 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.589 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.589 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.589 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.591 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.598 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.598 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.598 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.600 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.605 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.605 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.605 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.607 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.613 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.613 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.613 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.615 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.615 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 262
+2024-02-09 15:27:43.615 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.615 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.621 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.621 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.621 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.623 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.623 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 1
+2024-02-09 15:27:43.623 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.623 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.790 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 0
+2024-02-09 15:27:43.790 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:43.790 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.805 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 261
+2024-02-09 15:27:43.805 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:43.805 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.905 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.905 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:43.906 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.914 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.914 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.914 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.917 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.923 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.923 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.923 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.925 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.930 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.931 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.931 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.932 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.939 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.939 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.939 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.941 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.947 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.947 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.947 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.949 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.955 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.955 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.955 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.957 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.964 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.964 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.964 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.966 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.972 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.972 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.972 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.974 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.980 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.980 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.980 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.982 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.989 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.989 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.989 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.991 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:43.997 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:43.997 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:43.997 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:43.999 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.014 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.014 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.014 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.015 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.022 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.022 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.022 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.024 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.031 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.031 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.031 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.033 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.039 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.039 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.039 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.040 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.047 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.047 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.047 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.049 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.055 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.055 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.055 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.058 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.064 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.064 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.064 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.065 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.072 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.072 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.072 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.074 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.080 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.080 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.080 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.082 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.089 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.089 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.089 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.090 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.097 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.097 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.097 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.099 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.105 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.105 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.105 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.107 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.114 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.114 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.114 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.115 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.122 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.122 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.122 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.124 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.131 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.131 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.131 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.134 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.139 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.139 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.139 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.140 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.147 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.147 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.147 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.149 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.155 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.155 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.155 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.157 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.165 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.165 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.165 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.166 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.172 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.172 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.172 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.174 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.180 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.180 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.180 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.182 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.189 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.189 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.189 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.190 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.197 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.197 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.197 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.199 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.205 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.205 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.205 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.207 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.214 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.214 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.214 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.215 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.222 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.222 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.222 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.224 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.230 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.230 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.230 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.232 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.239 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.239 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.239 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.240 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.247 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.247 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.247 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.249 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.255 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.255 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.255 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.257 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.265 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.265 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.265 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.267 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.272 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.272 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.272 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.274 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.280 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.280 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.280 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.282 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.289 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.289 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.289 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.290 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.298 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.298 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.298 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.300 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.305 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.305 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.305 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.307 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.314 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.314 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.314 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.316 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.322 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.322 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.322 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.324 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.327 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.327 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.327 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.328 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.329 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 6
+2024-02-09 15:27:44.329 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.329 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.329 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 1
+2024-02-09 15:27:44.329 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.329 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.509 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 0
+2024-02-09 15:27:44.509 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:44.509 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.524 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 261
+2024-02-09 15:27:44.524 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:44.524 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.598 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.598 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:44.598 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.605 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.605 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.605 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.607 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.614 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.614 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.614 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.616 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.631 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.631 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.631 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.633 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.639 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.639 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.639 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.641 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.647 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.647 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.647 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.649 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.655 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.655 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.655 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.658 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.664 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.664 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.664 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.666 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.672 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.672 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.672 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.674 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.680 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.680 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.680 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.682 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.689 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.689 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.689 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.691 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.697 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.697 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.697 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.699 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.705 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.705 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.705 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.707 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.714 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.714 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.714 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.716 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.722 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.722 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.722 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.725 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.730 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.731 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.731 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.732 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.739 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.739 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.739 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.741 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.747 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.747 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.747 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.749 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.755 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.755 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.755 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.757 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.764 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.764 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.764 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.765 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.772 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.772 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.772 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.774 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.780 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.781 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.781 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.782 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.789 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.789 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.789 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.791 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.797 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.797 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.797 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.799 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.805 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.805 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.805 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.807 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.814 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.814 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.814 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.815 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.822 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.822 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.822 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.824 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.830 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.830 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.830 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.832 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.839 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.839 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.839 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.841 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.847 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.847 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.847 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.849 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.855 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.855 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.855 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.857 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.864 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.864 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.864 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.865 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.872 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.872 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.872 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.874 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.878 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.878 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.878 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.879 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.879 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 6
+2024-02-09 15:27:44.879 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.880 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.889 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.889 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.889 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.891 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.897 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.897 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.897 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.899 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.905 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.905 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.905 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.907 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.914 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.914 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.914 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.915 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.922 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:44.922 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.922 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:44.924 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:44.924 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 1
+2024-02-09 15:27:44.924 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:44.924 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.125 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 0
+2024-02-09 15:27:45.125 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:45.125 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.126 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 261
+2024-02-09 15:27:45.126 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:45.126 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.197 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.197 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:45.197 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.205 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.205 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.205 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.208 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.214 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.214 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.214 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.216 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.222 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.222 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.222 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.224 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.231 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.231 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.231 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.232 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.239 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.239 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.239 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.240 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.247 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.247 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.247 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.249 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.255 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.255 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.255 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.257 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.264 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.264 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.264 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.266 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.272 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.272 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.272 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.274 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.280 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.280 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.280 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.282 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.289 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.289 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.289 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.291 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.297 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.297 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.297 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.299 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.306 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.306 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.306 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.308 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.314 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.314 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.314 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.315 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.323 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.323 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.323 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.325 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.330 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.331 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.331 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.332 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.339 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.339 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.339 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.341 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.347 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.347 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.347 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.349 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.356 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.356 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.356 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.357 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.364 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.364 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.364 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.366 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.372 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.372 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.372 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.374 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.380 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.380 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.380 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.382 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.389 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.389 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.389 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.391 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.397 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.397 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.397 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.399 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.405 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.405 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.405 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.407 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.414 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.414 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.414 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.416 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.422 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.422 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.422 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.424 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.430 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.430 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.430 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.432 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.439 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.439 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.439 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.440 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.447 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.447 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.447 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.449 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.456 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.456 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.456 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.457 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.464 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.464 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.464 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.465 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.472 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.472 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.472 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.474 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.480 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.480 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.480 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.482 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.483 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 6
+2024-02-09 15:27:45.483 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.483 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.489 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.489 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.489 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.491 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.491 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.491 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.491 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.492 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.493 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 1
+2024-02-09 15:27:45.493 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.493 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.673 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 0
+2024-02-09 15:27:45.673 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:45.673 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.691 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 261
+2024-02-09 15:27:45.691 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:45.691 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.747 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.747 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:45.747 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.755 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.755 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.755 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.759 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.764 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.765 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.765 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.767 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.772 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.772 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.772 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.774 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.780 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.780 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.780 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.782 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.789 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.789 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.789 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.791 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.797 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.797 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.797 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.799 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.805 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.805 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.805 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.807 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.814 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.814 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.814 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.815 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.822 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.822 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.822 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.824 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.830 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.830 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.830 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.832 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.839 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.839 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.839 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.840 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.847 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.847 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.847 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.849 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.855 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.855 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.855 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.857 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.864 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.864 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.864 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.866 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.872 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.872 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.872 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.874 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.880 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.880 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.880 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.882 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.889 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.889 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.889 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.891 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.897 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.897 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.897 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.899 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.905 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.905 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.905 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.907 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.914 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.914 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.914 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.915 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.922 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.922 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.922 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.924 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.931 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.931 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.931 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.933 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.939 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.939 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.939 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.940 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.944 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.944 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.944 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.945 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.946 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 262
+2024-02-09 15:27:45.946 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.946 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.949 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:45.949 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.949 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:45.950 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:45.951 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 1
+2024-02-09 15:27:45.951 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:45.951 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.112 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 0
+2024-02-09 15:27:46.112 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:46.112 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.125 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 261
+2024-02-09 15:27:46.126 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:46.126 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.197 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.197 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:46.197 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.205 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.205 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.205 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.208 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.214 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.214 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.214 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.216 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.222 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.222 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.222 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.224 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.231 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.231 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.231 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.233 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.239 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.239 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.239 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.240 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.247 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.247 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.247 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.249 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.255 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.255 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.255 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.257 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.264 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.264 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.264 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.266 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.272 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.272 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.272 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.274 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.280 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.280 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.280 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.282 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.289 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.289 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.289 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.291 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.298 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.298 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.298 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.300 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.305 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.305 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.305 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.307 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.314 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.314 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.314 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.316 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.322 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.322 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.322 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.324 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.330 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.331 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.331 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.332 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.339 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.339 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.339 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.340 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.347 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.347 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.347 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.349 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.356 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.356 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.356 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.357 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.365 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.365 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.365 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.367 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.372 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.372 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.372 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.374 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.380 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.380 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.380 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.382 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.389 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.389 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.389 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.391 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.397 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.397 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.397 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.399 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.405 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.405 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.405 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.407 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.414 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.414 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.414 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.416 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.422 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.422 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.422 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.424 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.430 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.430 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.430 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.433 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.433 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.433 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.433 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.437 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.437 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 262
+2024-02-09 15:27:46.437 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.437 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.439 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 1
+2024-02-09 15:27:46.439 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.439 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.612 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 0
+2024-02-09 15:27:46.612 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:46.612 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.624 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 261
+2024-02-09 15:27:46.624 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:46.624 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.689 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.689 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:46.689 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.697 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.697 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.697 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.701 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.706 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.706 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.706 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.708 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.714 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.714 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.714 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.715 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.722 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.722 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.722 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.724 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.730 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.730 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.730 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.732 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.739 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.739 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.739 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.741 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.747 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.747 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.747 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.749 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.755 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.755 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.755 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.757 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.764 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.764 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.764 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.765 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.772 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.772 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.773 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.775 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.781 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.781 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.781 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.782 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.789 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.789 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.789 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.791 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.797 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.797 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.797 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.799 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.805 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.806 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.806 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.807 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.814 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.814 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.814 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.815 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.822 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.822 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.822 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.824 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.830 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.831 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.831 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.832 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.839 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.839 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.839 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.841 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.847 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.847 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.847 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.849 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.855 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.855 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.855 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.857 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.865 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.865 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.865 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.867 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.872 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.872 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.872 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.874 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.880 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.880 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.880 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.882 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.889 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.889 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.889 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.890 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.895 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.895 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.895 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.896 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.897 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 262
+2024-02-09 15:27:46.897 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.897 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.905 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.905 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.905 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.907 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.910 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 2
+2024-02-09 15:27:46.910 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.910 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:46.911 30497-30497/com.mxtech.videoplayer.ad E/setDisplaySize::: widthL:1366  ::  height:2428
+2024-02-09 15:27:46.911 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 1
+2024-02-09 15:27:46.911 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 18
+2024-02-09 15:27:46.911 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:47.176 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 0
+2024-02-09 15:27:47.176 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:47.177 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:47.250 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::action:: 1
+2024-02-09 15:27:47.250 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::_swiping:: 0
+2024-02-09 15:27:47.250 30497-30497/com.mxtech.videoplayer.ad E/ActivityScreen::start:: ****************************************
+2024-02-09 15:27:47.999 30497-30497/com.mxtech.videoplayer.ad V/MX.Screen: onPause (com.mxtech.videoplayer.ad.ActivityScreen@b2d3c00): uri=file:///storage/emulated/0/video.mp4
+2024-02-09 15:27:48.014 30497-30497/com.mxtech.videoplayer.ad V/MX.Player.Joint: Pause
+2024-02-09 15:27:48.014 30497-30497/com.mxtech.videoplayer.ad V/MX.Player.Joint: Pause 1st player. 1st_position=5339 2nd_position=0
+2024-02-09 15:27:48.020 30497-30497/com.mxtech.videoplayer.ad V/MX.Database: State saved for 'file:///storage/emulated/0/video.mp4': com.mxtech.videoplayer.MediaDatabase$State@b92ba90 [Position=5340 decoder=1 decodeOption=0 audioDecoder=1 audioStream=-1 audioOffset=0 subtitle-offset=0 subtitle-speed=1.0 playback-speed=1.0 ratio=0.0:0.0 zoom=1366x2428 pan=(-44, 284) process=0 subtitle-count=0 repeat=-1 ~ -1] (2ms)
+2024-02-09 15:27:48.029 30497-30497/com.mxtech.videoplayer.ad V/MX.Screen: onSaveInstanceState (com.mxtech.videoplayer.ad.ActivityScreen@b2d3c00)
+2024-02-09 15:27:48.033 30497-30497/com.mxtech.videoplayer.ad V/MX.Screen: onStop (com.mxtech.videoplayer.ad.ActivityScreen@b2d3c00): uri=file:///storage/emulated/0/video.mp4
+2024-02-09 15:27:48.039 30497-30497/com.mxtech.videoplayer.ad D/MX.Screen: === Enter surfaceDestroyed. holder=android.view.SurfaceView$4@1839d7e _surfaceHolderCreated=android.view.SurfaceView$4@1839d7e_surfaceView=android.view.SurfaceView{69dde7 V.E...... ........ -117,426-1249,2854 #7f100027 app:id/surfaceView}
+2024-02-09 15:27:48.052 30497-30497/com.mxtech.videoplayer.ad D/MX.Screen: === Leave surfaceDestroyed.
+2024-02-09 15:27:48.056 30497-30497/com.mxtech.videoplayer.ad V/MX.Player.FF: === Begin closing soft player
+2024-02-09 15:27:48.057 30497-30497/com.mxtech.videoplayer.ad V/MX.Player.FF: === End closing soft player
+2024-02-09 15:27:48.057 30497-30497/com.mxtech.videoplayer.ad V/MX.Player.Builtin: === Begin closing built-in player
+2024-02-09 15:27:48.071 30497-30497/com.mxtech.videoplayer.ad V/MX.Player.Builtin: === End closing built-in player
+2024-02-09 15:27:48.073 30497-30497/com.mxtech.videoplayer.ad D/MX.AudioFocus: Focus abandoned.
+2024-02-09 15:27:48.073 30497-30497/com.mxtech.videoplayer.ad V/MX.Database: Release database. thread-contexts:3, reference-count:0
+2024-02-09 15:27:48.078 30497-30497/com.mxtech.videoplayer.ad W/MediaPlayer: mediaplayer went away with unhandled events
+2024-02-09 15:27:49.031 30497-30518/com.mxtech.videoplayer.ad I/GMPM: Tag Manager is not found and thus will not be used
+2024-02-09 15:27:49.075 30497-30497/com.mxtech.videoplayer.ad V/MX.PlayService: onDestroy

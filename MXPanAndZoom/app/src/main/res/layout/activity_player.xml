@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    class="com.example.videoplayer.ui.PlayerActivity$TopLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/top_layout"
+    tools:context=".ui.PlayerActivity">
+
+<Button
+    android:id="@+id/player"
+    android:text="播放"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/systemWindowFittable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="0px"
+        android:layout_marginRight="0px"
+        android:layout_marginBottom="0px"
+
+        android:fitsSystemWindows="true">
+
+
+        <RelativeLayout
+            android:id="@+id/ui_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/supremeContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/supremeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:shadowColor="#000"
+            android:shadowRadius="2"
+            android:textAppearance="@style/supremeAppearance" />
+    </LinearLayout>
+
+</view>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GestureTest</string>
+    <string name="vod_play_speed_change_toast">当前切换到%s倍速度播放</string>
+</resources>

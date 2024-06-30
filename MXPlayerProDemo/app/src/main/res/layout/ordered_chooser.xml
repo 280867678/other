@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:minHeight="480dp">
+    <TextView android:textColorLink="?android:attr/textColorPrimary" android:id="@+id/header" android:background="@color/gray_background" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginTop="8dp" android:layout_marginRight="18dp" android:layout_marginBottom="8dp" android:minLines="2" android:lineSpacingMultiplier="1.3"/>
+    <com.mxtech.widget.ListView2 android:id="@android:id/list" android:nextFocusRight="@android:id/button1" android:nextFocusDown="@android:id/button3" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null"/>
+</LinearLayout>

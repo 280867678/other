@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/bar" android:background="?attr/panel_bottombar_background" android:layout_width="match_parent" android:layout_height="@dimen/bottom_bar_min_height" android:layout_alignParentBottom="true" class="com.mxtech.videoplayer.subtitle.SubtitlePanel$Bar">
+    <ImageButton android:id="@+id/loadSubtitle" android:background="?attr/selectableItemBackgroundBorderless" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_folder_white_24dp" android:layout_centerVertical="true"/>
+    <ImageButton android:id="@android:id/closeButton" android:background="?attr/selectableItemBackgroundBorderless" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/holo_close_button" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    <HorizontalScrollView android:background="@drawable/subtitle_container_background" android:paddingLeft="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@android:id/closeButton" android:layout_toRightOf="@+id/loadSubtitle" android:layout_centerVertical="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/subtitleContainer" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    </HorizontalScrollView>
+</view>

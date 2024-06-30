@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8dp">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="?attr/dialogPreferredPadding" android:paddingRight="?attr/dialogPreferredPadding" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@android:id/message" android:paddingTop="@dimen/abc_dialog_padding_top_material" android:nextFocusDown="@+id/accept_search_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.3" style="@style/TextAppearance.AppCompat.Subhead"/>
+        <CheckBox android:id="@+id/accept_search_text" android:nextFocusUp="@android:id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/abc_dialog_padding_top_material" android:checked="false" android:text="@string/enter_your_search_text"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/search_text_group" android:background="?attr/editTextBackground" android:addStatesFromChildren="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.mxtech.videoplayer.subtitle.service.SubtitleSearchTextView android:ellipsize="none" android:id="@+id/search_text" android:background="@null" android:layout_width="0px" android:layout_height="wrap_content" android:minHeight="32sp" android:hint="@string/abc_search_hint" android:maxLines="100" android:scrollHorizontally="false" android:layout_weight="1" android:inputType="textMultiLine" android:imeOptions="actionDone" app:noLineFeed="true" app:table="SubtitleQueryLog" app:completionThreshold="0"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/clear_btn" android:background="?attr/selectableItemBackgroundBorderless" android:paddingLeft="6dp" android:paddingRight="6dp" android:focusable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="6dp" android:src="@drawable/abc_ic_clear_mtrl_alpha" android:scaleType="centerInside"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

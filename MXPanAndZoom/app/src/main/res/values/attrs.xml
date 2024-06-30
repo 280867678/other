@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="panel_bottombar_background" format="reference">
+    </attr>
+
+
+    <attr name="toolbar_layout" format="reference">
+    </attr>
+
+</resources>

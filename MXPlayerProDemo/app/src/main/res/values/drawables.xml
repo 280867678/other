@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="ic_action_play">@drawable/ic_play_arrow_white_24dp</drawable>
+    <drawable name="ic_action_refresh">@drawable/ic_refresh_white_24dp</drawable>
+    <drawable name="ic_action_search">@drawable/ic_search_white_24dp</drawable>
+    <drawable name="notification_template_icon_bg">#3333b5e5</drawable>
+</resources>

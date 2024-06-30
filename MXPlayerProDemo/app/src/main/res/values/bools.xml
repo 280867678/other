@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_allow_stacked_button_bar">true</bool>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">false</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
+    <bool name="default_tv_mode">false</bool>
+    <bool name="text_selectable_on_dialog">false</bool>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="default_navi_show_move_buttons">false</bool>
+    <bool name="default_volume_boost">true</bool>
+    <bool name="global_searchable">true</bool>
+    <bool name="default_try_hw_if_omx_fails">false</bool>
+    <bool name="default_hardware_acceleration">false</bool>
+    <bool name="abc_action_bar_expanded_action_views_exclusive">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
+    <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="show_notice">true</bool>
+</resources>

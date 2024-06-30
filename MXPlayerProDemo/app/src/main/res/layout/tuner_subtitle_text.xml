@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:stretchColumns="1" android:shrinkColumns="*">
+        <TableRow style="@style/TunerRow">
+            <TextView android:textAppearance="?android:attr/textAppearance" android:layout_height="wrap_content" android:minWidth="60dp" android:text="@string/tune_subtitle_typeface" style="@style/TunerRow.TextView"/>
+            <android.support.v7.widget.AppCompatSpinner android:id="@+id/subtitleTypeface" android:layout_marginLeft="8dp" android:prompt="@string/tune_subtitle_typeface_prompt" style="@style/TunerRow.Spinner"/>
+        </TableRow>
+        <TableRow style="@style/TunerRow">
+            <TextView android:textAppearance="?android:attr/textAppearance" android:layout_height="wrap_content" android:text="@string/tune_subtitle_text_size" style="@style/TunerRow.TextView"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal">
+                <SeekBar android:id="@+id/subtitleTextSize" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="0px" android:layout_height="wrap_content" android:layout_weight="1" style="@style/TunerRow.SeekBar"/>
+                <TextView android:id="@+id/subtitleTextSizeText" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TunerRow.TextView"/>
+            </LinearLayout>
+        </TableRow>
+        <TableRow style="@style/TunerRow">
+            <TextView android:textAppearance="?android:attr/textAppearance" android:layout_height="wrap_content" android:text="@string/tune_subtitle_scale" style="@style/TunerRow.TextView"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal">
+                <SeekBar android:id="@+id/subtitle_scale" android:paddingLeft="15dp" android:paddingRight="15dp" android:nextFocusDown="@+id/subtitleTextColor" android:layout_width="0px" android:layout_height="wrap_content" android:layout_weight="1" style="@style/TunerRow.SeekBar"/>
+                <TextView android:id="@+id/subtitle_scale_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TunerRow.TextView"/>
+            </LinearLayout>
+        </TableRow>
+        <TableRow style="@style/TunerRow">
+            <TextView android:textAppearance="?android:attr/textAppearance" android:layout_height="wrap_content" android:text="@string/tune_subtitle_text_color" style="@style/TunerRow.TextView"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal">
+                <afzkl.development.mColorPicker.views.ColorPanelView android:id="@+id/subtitleTextColor" android:nextFocusDown="@+id/subtitleBorderColor" android:layout_width="40dp" android:layout_marginLeft="12dp" style="@style/TunerRow.ColorPaneView"/>
+                <CheckBox android:id="@+id/subtitleBold" android:nextFocusDown="@+id/subtitleBorderColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:text="@string/tune_subtitle_bold" style="@style/TunerRow.CheckBox"/>
+            </LinearLayout>
+        </TableRow>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <CheckBox android:id="@+id/subtitleBorder" android:nextFocusUp="@+id/subtitleTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tune_subtitle_border_color" style="@style/TunerRow.CheckBox"/>
+                <afzkl.development.mColorPicker.views.ColorPanelView android:id="@+id/subtitleBorderColor" android:nextFocusUp="@+id/subtitleTextColor" android:layout_width="40dp" android:layout_marginLeft="6dp" style="@style/TunerRow.ColorPaneView"/>
+            </LinearLayout>
+            <SeekBar android:id="@+id/border_thickness" android:paddingLeft="15dp" android:paddingRight="15dp" android:nextFocusUp="@+id/subtitleTextColor" android:layout_width="0px" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_weight="1" style="@style/TunerRow.SeekBar"/>
+            <TextView android:id="@+id/border_thickness_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TunerRow.TextView"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" style="@style/TunerRow">
+            <CheckBox android:id="@+id/subtitleShadow" android:nextFocusUp="@+id/subtitleBorder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tune_subtitle_shadow" android:layout_weight="1" style="@style/TunerRow.CheckBox"/>
+            <CheckBox android:id="@+id/subtitle_fadeout" android:nextFocusUp="@+id/subtitleBorderColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/subtitle_fadeout_short" android:layout_weight="1" style="@style/TunerRow.CheckBox"/>
+        </LinearLayout>
+        <CheckBox android:id="@+id/improve_ssa_rendering" android:nextFocusUp="@+id/subtitleShadow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/improve_ssa_rendering" style="@style/TunerRow.CheckBox"/>
+        <CheckBox android:id="@+id/ignore_ssa_fonts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ignore_ssa_fonts" style="@style/TunerRow.CheckBox"/>
+        <CheckBox android:id="@+id/ignore_broken_ssa_fonts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ignore_broken_ssa_fonts" style="@style/TunerRow.CheckBox"/>
+    </TableLayout>
+</ScrollView>

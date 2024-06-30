@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BLContainer"></declare-styleable>
+    <declare-styleable name="ZHTextView"></declare-styleable>
+
+
+    <attr name="bl_idle_Y" format="dimension">
+    </attr>
+</resources>

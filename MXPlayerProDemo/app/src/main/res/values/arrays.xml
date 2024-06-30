@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="tune_orientation_options">
+        <item>@string/orientation_landscape</item>
+        <item>@string/orientation_auto</item>
+        <item>@string/use_system_default</item>
+        <item>@string/use_video_orientation</item>
+    </array>
+    <array name="tune_orientation_values">
+        <item>0</item>
+        <item>4</item>
+        <item>-1</item>
+        <item>99999</item>
+    </array>
+    <array name="all_locale_names">
+<!--        <item>한국어</item>-->
+<!--        <item>Русский</item>-->
+<!--        <item>日本語</item>-->
+<!--        <item>Deutsch</item>-->
+<!--        <item>Français</item>-->
+<!--        <item>Nederlands</item>-->
+<!--        <item>Polski</item>-->
+<!--        <item>Bahasa Indonesia</item>-->
+<!--        <item>Italiano</item>-->
+<!--        <item>Български</item>-->
+        <item>中文</item>
+        <item>中文 (中国)</item>
+        <item>中文 (台灣)</item>
+        <item>中文 (香港)</item>
+<!--        <item>Čeština</item>-->
+<!--        <item>Magyar</item>-->
+<!--        <item>Português</item>-->
+<!--        <item>Português (Brasil)</item>-->
+<!--        <item>Español</item>-->
+<!--        <item>Ελληνικά</item>-->
+<!--        <item>Română</item>-->
+<!--        <item>Türkçe</item>-->
+<!--        <item>Українська</item>-->
+<!--        <item>Dansk</item>-->
+<!--        <item>עברית</item>-->
+<!--        <item>Slovenčina</item>-->
+<!--        <item>Norsk</item>-->
+<!--        <item>العربية</item>-->
+<!--        <item>Slovenščina</item>-->
+<!--        <item>فارسی</item>-->
+<!--        <item>Српски</item>-->
+<!--        <item>Svenska</item>-->
+<!--        <item>Монгол</item>-->
+<!--        <item>English</item>-->
+<!--        <item>ئۇيغۇرچە</item>-->
+<!--        <item>ქართული</item>-->
+<!--        <item>Tiếng Việt</item>-->
+<!--        <item>Latviešu</item>-->
+<!--        <item>Suomi</item>-->
+<!--        <item>Lietuvių</item>-->
+<!--        <item>كوردی‎</item>-->
+<!--        <item>Català</item>-->
+<!--        <item>தமிழ்</item>-->
+<!--        <item>বাংলা</item>-->
+<!--        <item>मराठी</item>-->
+<!--        <item>Eesti</item>-->
+<!--        <item>Hrvatski</item>-->
+<!--        <item>Հայերեն</item>-->
+<!--        <item>татар теле</item>-->
+<!--        <item>O&apos;zbekcha</item>-->
+<!--        <item>Afrikaans</item>-->
+<!--        <item>नेपाली</item>-->
+<!--        <item>Shqip</item>-->
+<!--        <item>Беларуская</item>-->
+<!--        <item>Bahasa Melayu</item>-->
+<!--        <item>ಕನ್ನಡ</item>-->
+<!--        <item>Euskara</item>-->
+<!--        <item>తెలుగు</item>-->
+<!--        <item>Gaeilge</item>-->
+<!--        <item>ไทย</item>-->
+<!--        <item>Azərbaycanca</item>-->
+<!--        <item>Tagalog</item>-->
+<!--        <item>မြန်မာဘာသာ</item>-->
+<!--        <item>हिन्दी</item>-->
+<!--        <item>Bosanski</item>-->
+<!--        <item>Brezhoneg</item>-->
+<!--        <item>ދިވެހިބަސް</item>-->
+<!--        <item>Na Vosa Vakaviti</item>-->
+<!--        <item>Frysk</item>-->
+<!--        <item>Galego</item>-->
+<!--        <item>ગુજરાતી</item>-->
+<!--        <item>íslenska</item>-->
+<!--        <item>Қазақ тілі</item>-->
+<!--        <item>ភាសាខ្មែរ</item>-->
+<!--        <item>кыргызча</item>-->
+<!--        <item>Latīna</item>-->
+<!--        <item>Lëtzebuergesch</item>-->
+<!--        <item>Македонски јазик</item>-->
+<!--        <item>Malagasy</item>-->
+<!--        <item>മലയാളം</item>-->
+<!--        <item>Malti</item>-->
+<!--        <item>Te Reo</item>-->
+<!--        <item>Nynorsk</item>-->
+<!--        <item>پښتو</item>-->
+<!--        <item>ਪੰਜਾਬੀ</item>-->
+<!--        <item>Rumantsch</item>-->
+<!--        <item>Gàidhlig</item>-->
+<!--        <item>සිංහල</item>-->
+<!--        <item>Kiswahili</item>-->
+<!--        <item>Xitsonga</item>-->
+<!--        <item>اُردُو</item>-->
+<!--        <item>Cymraeg</item>-->
+<!--        <item>Zulu</item>-->
+<!--        <item>Occitan</item>-->
+<!--        <item>Akan</item>-->
+<!--        <item>አማርኛ</item>-->
+<!--        <item>Aragonés</item>-->
+<!--        <item>অসমীয়া</item>-->
+<!--        <item>Aymar aru</item>-->
+<!--        <item>башҡорт теле</item>-->
+<!--        <item>Нахчиэ Муотт</item>-->
+<!--        <item>Чăвашла</item>-->
+<!--        <item>Esperanto</item>-->
+<!--        <item>Èʋegbe</item>-->
+<!--        <item>Fula</item>-->
+<!--        <item>Guarani</item>-->
+<!--        <item>Kreyòl</item>-->
+<!--        <item>Hausa</item>-->
+<!--        <item>Igbo</item>-->
+<!--        <item>Basa Jawa</item>-->
+<!--        <item>कॉशुर</item>-->
+<!--        <item>ພາສາລາວ</item>-->
+<!--        <item>Lèmbörgs</item>-->
+<!--        <item>Chewa</item>-->
+<!--        <item>ଓଡ଼ିଆ</item>-->
+<!--        <item>Oromo</item>-->
+<!--        <item>Quechua</item>-->
+<!--        <item>Shona</item>-->
+<!--        <item>سنڌي</item>-->
+<!--        <item>Af-Soomaali</item>-->
+<!--        <item>Basa Sunda</item>-->
+<!--        <item>тоҷикӣ</item>-->
+<!--        <item>Türkmençe</item>-->
+<!--        <item>יידיש</item>-->
+<!--        <item>Yorùbá</item>-->
+    </array>
+    <array name="all_locales">
+        <item>ko</item>
+        <item>ru</item>
+        <item>ja</item>
+        <item>de</item>
+        <item>fr</item>
+        <item>nl</item>
+        <item>pl</item>
+        <item>in</item>
+        <item>it</item>
+        <item>bg</item>
+        <item>zh</item>
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+        <item>zh_HK</item>
+        <item>cs</item>
+        <item>hu</item>
+        <item>pt</item>
+        <item>pt_BR</item>
+        <item>es</item>
+        <item>el</item>
+        <item>ro</item>
+        <item>tr</item>
+        <item>uk</item>
+        <item>da</item>
+        <item>iw</item>
+        <item>sk</item>
+        <item>no</item>
+        <item>ar</item>
+        <item>sl</item>
+        <item>fa</item>
+        <item>sr</item>
+        <item>sv</item>
+        <item>mn</item>
+        <item>en</item>
+        <item>ug</item>
+        <item>ka</item>
+        <item>vi</item>
+        <item>lv</item>
+        <item>fi</item>
+        <item>lt</item>
+        <item>ku</item>
+        <item>ca</item>
+        <item>ta</item>
+        <item>bn</item>
+        <item>mr</item>
+        <item>et</item>
+        <item>hr</item>
+        <item>hy</item>
+        <item>tt</item>
+        <item>uz</item>
+        <item>af</item>
+        <item>ne</item>
+        <item>sq</item>
+        <item>be</item>
+        <item>ms</item>
+        <item>kn</item>
+        <item>eu</item>
+        <item>te</item>
+        <item>ga</item>
+        <item>th</item>
+        <item>az</item>
+        <item>tl</item>
+        <item>my</item>
+        <item>hi</item>
+        <item>bs</item>
+        <item>br</item>
+        <item>dv</item>
+        <item>fj</item>
+        <item>fy</item>
+        <item>gl</item>
+        <item>gu</item>
+        <item>is</item>
+        <item>kk</item>
+        <item>km</item>
+        <item>ky</item>
+        <item>la</item>
+        <item>lb</item>
+        <item>mk</item>
+        <item>mg</item>
+        <item>ml</item>
+        <item>mt</item>
+        <item>mi</item>
+        <item>nn</item>
+        <item>ps</item>
+        <item>pa</item>
+        <item>rm</item>
+        <item>gd</item>
+        <item>si</item>
+        <item>sw</item>
+        <item>ts</item>
+        <item>ur</item>
+        <item>cy</item>
+        <item>zu</item>
+        <item>oc</item>
+        <item>ak</item>
+        <item>am</item>
+        <item>an</item>
+        <item>as</item>
+        <item>ay</item>
+        <item>ba</item>
+        <item>ce</item>
+        <item>cv</item>
+        <item>eo</item>
+        <item>ee</item>
+        <item>ff</item>
+        <item>gn</item>
+        <item>ht</item>
+        <item>ha</item>
+        <item>ig</item>
+        <item>jv</item>
+        <item>ks</item>
+        <item>lo</item>
+        <item>li</item>
+        <item>ny</item>
+        <item>or</item>
+        <item>om</item>
+        <item>qu</item>
+        <item>sn</item>
+        <item>sd</item>
+        <item>so</item>
+        <item>su</item>
+        <item>tg</item>
+        <item>tk</item>
+        <item>yi</item>
+        <item>yo</item>
+    </array>
+    <array name="aspect_longer_ratios">
+        <item>1</item>
+        <item>4</item>
+        <item>16</item>
+        <item>16</item>
+        <item>21</item>
+        <item>64</item>
+        <item>2.21</item>
+        <item>2.35</item>
+        <item>2.39</item>
+        <item>5</item>
+    </array>
+    <array name="aspect_ratios_landscape">
+        <item>@string/font_default</item>
+        <item>1:1</item>
+        <item>4:3</item>
+        <item>16:9</item>
+        <item>16:10</item>
+        <item>21:9 (2.33:1)</item>
+        <item>64:27 (2.37:1)</item>
+        <item>2.21:1</item>
+        <item>2.35:1</item>
+        <item>2.39:1</item>
+        <item>5:4</item>
+        <item>@string/custom</item>
+    </array>
+    <array name="aspect_ratios_portrait">
+        <item>@string/font_default</item>
+        <item>1:1</item>
+        <item>3:4</item>
+        <item>9:16</item>
+        <item>10:16</item>
+        <item>9:21 (1:2.33)</item>
+        <item>27:64 (1:2.37)</item>
+        <item>1:2.21</item>
+        <item>1:2.35</item>
+        <item>1:2.39</item>
+        <item>4:5</item>
+        <item>@string/custom</item>
+    </array>
+    <array name="aspect_shorter_ratios">
+        <item>1</item>
+        <item>3</item>
+        <item>9</item>
+        <item>10</item>
+        <item>9</item>
+        <item>27</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>4</item>
+    </array>
+    <array name="audio_exts">
+        <item>669</item>
+        <item>aac</item>
+        <item>ac3</item>
+        <item>act</item>
+        <item>aiff</item>
+        <item>alac</item>
+        <item>amf</item>
+        <item>amr</item>
+        <item>ams</item>
+        <item>au</item>
+        <item>dbm</item>
+        <item>dmf</item>
+        <item>dsm</item>
+        <item>far</item>
+        <item>flac</item>
+        <item>gsm</item>
+        <item>it</item>
+        <item>m4a</item>
+        <item>m4b</item>
+        <item>m4p</item>
+        <item>m4r</item>
+        <item>mdl</item>
+        <item>med</item>
+        <item>mka</item>
+        <item>mod</item>
+        <item>mp3</item>
+        <item>mt2</item>
+        <item>mtm</item>
+        <item>oga</item>
+        <item>okt</item>
+        <item>opus</item>
+        <item>pat</item>
+        <item>psm</item>
+        <item>ptm</item>
+        <item>ra</item>
+        <item>s3m</item>
+        <item>spx</item>
+        <item>stm</item>
+        <item>tta</item>
+        <item>vox</item>
+        <item>ult</item>
+        <item>umx</item>
+        <item>wav</item>
+        <item>xm</item>
+    </array>
+    <array name="audio_hw_exts">
+        <item>mid</item>
+        <item>xmf</item>
+        <item>mxmf</item>
+        <item>rtttl</item>
+        <item>rtx</item>
+        <item>ota</item>
+        <item>imy</item>
+        <item>wma</item>
+    </array>
+    <array name="color_format_entries">
+        <item>@string/color_format_rgb16</item>
+        <item>@string/color_format_rgb32</item>
+        <item>@string/color_format_yuv</item>
+    </array>
+    <array name="color_format_values">
+        <item>rgb565</item>
+        <item>rgbx8888</item>
+        <item>yv12</item>
+    </array>
+    <array name="decoder_choice">
+        <item>@string/decoder_abbr_default</item>
+        <item>@string/decoder_abbr_hw</item>
+        <item>@string/decoder_abbr_omx</item>
+        <item>@string/decoder_abbr_sw</item>
+    </array>
+    <array name="decoder_choice_noomx">
+        <item>@string/decoder_abbr_default</item>
+        <item>@string/decoder_abbr_hw</item>
+        <item>@string/decoder_abbr_sw</item>
+    </array>
+    <array name="decoder_choice_value">
+        <item>0</item>
+        <item>1</item>
+        <item>4</item>
+        <item>2</item>
+    </array>
+    <array name="decoder_choice_value_noomx">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="deinterlacer_names">
+        <item>@string/detail_value_none</item>
+        <item>Yadif</item>
+        <item>W3fdif</item>
+    </array>
+    <array name="deinterlacer_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="export_import_materials">
+        <item>@string/settings</item>
+        <item>@string/activity_records</item>
+    </array>
+    <array name="fullscreen">
+        <item>@string/on</item>
+        <item>@string/off</item>
+        <item>@string/auto_switch</item>
+    </array>
+    <array name="key_updown_action_values">
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="key_updown_actions">
+        <item>@string/change_sound_volume</item>
+        <item>@string/change_brightness</item>
+    </array>
+    <array name="list_refresh_method_default">
+        <item>button</item>
+        <item>swipe</item>
+    </array>
+    <array name="list_refresh_method_values">
+        <item>button</item>
+        <item>swipe</item>
+    </array>
+    <array name="list_refresh_methods">
+        <item>@string/refresh_button</item>
+        <item>@string/swipe_down</item>
+    </array>
+    <array name="list_theme_values">
+        <item>white</item>
+        <item>black</item>
+        <item>black_redAccent</item>
+        <item>black_pinkAccent</item>
+        <item>black_fl_pinkAccent</item>
+        <item>black_orangeAccent</item>
+        <item>black_yellowAccent</item>
+        <item>black_brownAccent</item>
+        <item>black_greenAccent</item>
+        <item>black_blueAccent</item>
+        <item>black_indigoAccent</item>
+        <item>black_purpleAccent</item>
+        <item>dark_gray</item>
+        <item>dark_gray2</item>
+        <item>dark_navy</item>
+        <item>red</item>
+        <item>pink</item>
+        <item>fl_pink</item>
+        <item>orange</item>
+        <item>brown</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>indigo</item>
+        <item>purple</item>
+    </array>
+    <array name="lock_targets">
+        <item>@string/input</item>
+        <item>@string/screen_rotation</item>
+    </array>
+    <array name="mark_as_entries">
+        <item>@string/mark_as_last_played</item>
+        <item>@string/mark_as_new</item>
+        <item>@string/mark_as_finished</item>
+        <item>@string/detail_value_none</item>
+    </array>
+    <array name="omx_video_codec_values">
+        <item>8</item>
+        <item>2</item>
+        <item>4</item>
+        <item>1</item>
+        <item>256</item>
+        <item>4096</item>
+        <item>32</item>
+        <item>16</item>
+        <item>1024</item>
+        <item>64</item>
+        <item>512</item>
+        <item>32768</item>
+        <item>128</item>
+    </array>
+    <array name="omx_video_codecs">
+        <item>H.263</item>
+        <item>H.264</item>
+        <item>H.264 10bits</item>
+        <item>H.265</item>
+        <item>H.265 10bits</item>
+        <item>MPEG-1</item>
+        <item>MPEG-2</item>
+        <item>MPEG-4</item>
+        <item>MJPEG</item>
+        <item>VP8</item>
+        <item>VP9</item>
+        <item>WMV3</item>
+        <item>VC-1</item>
+    </array>
+    <array name="playback_theme_values">
+        <item>white</item>
+        <item>black</item>
+        <item>black_redAccent</item>
+        <item>black_pinkAccent</item>
+        <item>black_fl_pinkAccent</item>
+        <item>black_orangeAccent</item>
+        <item>black_yellowAccent</item>
+        <item>black_brownAccent</item>
+        <item>black_greenAccent</item>
+        <item>black_blueAccent</item>
+        <item>black_indigoAccent</item>
+        <item>black_purpleAccent</item>
+        <item>dark_gray</item>
+        <item>dark_navy</item>
+        <item>red</item>
+        <item>pink</item>
+        <item>fl_pink</item>
+        <item>orange</item>
+        <item>brown</item>
+        <item>green</item>
+        <item>indigo</item>
+        <item>purple</item>
+    </array>
+    <array name="progress_bar_styles">
+        <item>@string/progress_bar_flat</item>
+        <item>@string/progress_bar_material</item>
+    </array>
+    <array name="resume_last_entries">
+        <item>@string/yes</item>
+        <item>@string/no</item>
+        <item>@string/ask_at_startup</item>
+    </array>
+    <array name="resume_last_values">
+        <item>resume</item>
+        <item>startover</item>
+        <item>ask</item>
+    </array>
+    <array name="screen_lock_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="screen_presets">
+        <item>@string/font_default</item>
+        <item>@string/screen_style_inverse</item>
+    </array>
+    <array name="soft_buttons">
+        <item>@string/show</item>
+        <item>@string/hide</item>
+        <item>@string/auto_hide</item>
+    </array>
+    <array name="three_states">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="three_states_as_string">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="three_states_texts">
+        <item>@string/on</item>
+        <item>@string/off</item>
+        <item>@string/automatic</item>
+    </array>
+    <array name="translated_locales">
+        <item>ko</item>
+        <item>ru</item>
+        <item>ja</item>
+        <item>de</item>
+        <item>fr</item>
+        <item>nl</item>
+        <item>pl</item>
+        <item>in</item>
+        <item>it</item>
+        <item>bg</item>
+        <item>zh_CN</item>
+        <item>cs</item>
+        <item>hu</item>
+        <item>pt</item>
+        <item>pt_BR</item>
+        <item>es</item>
+        <item>el</item>
+        <item>ro</item>
+        <item>tr</item>
+        <item>uk</item>
+        <item>zh_TW</item>
+        <item>da</item>
+        <item>iw</item>
+        <item>sk</item>
+        <item>no</item>
+        <item>ar</item>
+        <item>sl</item>
+        <item>fa</item>
+        <item>sr</item>
+        <item>sv</item>
+        <item>en</item>
+        <item>ug</item>
+        <item>vi</item>
+        <item>lv</item>
+        <item>fi</item>
+        <item>lt</item>
+        <item>ku</item>
+        <item>ca</item>
+        <item>ta</item>
+        <item>bn</item>
+        <item>et</item>
+        <item>hr</item>
+        <item>tt</item>
+        <item>af</item>
+        <item>ne</item>
+        <item>sq</item>
+        <item>be</item>
+        <item>ms</item>
+        <item>kn</item>
+        <item>zh_HK</item>
+        <item>eu</item>
+        <item>te</item>
+        <item>th</item>
+        <item>az</item>
+        <item>tl</item>
+        <item>my</item>
+        <item>hi</item>
+        <item>ml</item>
+        <item>gu</item>
+        <item>lo</item>
+        <item>tk</item>
+    </array>
+    <array name="translator_codes">
+        <item>ru</item>
+        <item>ja</item>
+        <item>de</item>
+        <item>fr</item>
+        <item>nl</item>
+        <item>pl</item>
+        <item>in</item>
+        <item>it</item>
+        <item>bg</item>
+        <item>zh_CN</item>
+        <item>cs</item>
+        <item>hu</item>
+        <item>pt</item>
+        <item>es</item>
+        <item>el</item>
+        <item>ro</item>
+        <item>tr</item>
+        <item>uk</item>
+        <item>zh_TW</item>
+        <item>da</item>
+        <item>iw</item>
+        <item>sk</item>
+        <item>no</item>
+        <item>ar</item>
+        <item>sl</item>
+        <item>fa</item>
+        <item>sr</item>
+        <item>sv</item>
+        <item>en</item>
+        <item>ug</item>
+        <item>vi</item>
+        <item>lv</item>
+        <item>fi</item>
+        <item>lt</item>
+        <item>ku</item>
+        <item>ca</item>
+        <item>ta</item>
+        <item>bn</item>
+        <item>et</item>
+        <item>hr</item>
+        <item>tt</item>
+        <item>af</item>
+        <item>ne</item>
+        <item>sq</item>
+        <item>be</item>
+        <item>ms</item>
+        <item>kn</item>
+        <item>zh_HK</item>
+        <item>eu</item>
+        <item>te</item>
+        <item>th</item>
+        <item>az</item>
+        <item>tl</item>
+        <item>my</item>
+        <item>hi</item>
+        <item>ml</item>
+        <item>gu</item>
+        <item>lo</item>
+        <item>tk</item>
+    </array>
+    <array name="translator_languages">
+        <item>@string/russian</item>
+        <item>@string/japanese</item>
+        <item>@string/german</item>
+        <item>@string/french</item>
+        <item>@string/dutch</item>
+        <item>@string/polish</item>
+        <item>@string/indonesian</item>
+        <item>@string/italian</item>
+        <item>@string/bulgarian</item>
+        <item>@string/chinese_simplified</item>
+        <item>@string/czech</item>
+        <item>@string/hungarian</item>
+        <item>@string/portuguese</item>
+        <item>@string/spanish</item>
+        <item>@string/greek</item>
+        <item>@string/romanian</item>
+        <item>@string/turkish</item>
+        <item>@string/ukrainian</item>
+        <item>@string/chinese_traditional</item>
+        <item>@string/danish</item>
+        <item>@string/hebrew</item>
+        <item>@string/slovak</item>
+        <item>@string/norwegian</item>
+        <item>@string/arabic</item>
+        <item>@string/slovenian</item>
+        <item>@string/persian</item>
+        <item>@string/serbian</item>
+        <item>@string/swedish</item>
+        <item>@string/english</item>
+        <item>@string/uyghur</item>
+        <item>@string/vietnamese</item>
+        <item>@string/latvian</item>
+        <item>@string/finnish</item>
+        <item>@string/lithuanian</item>
+        <item>@string/kurdish</item>
+        <item>@string/catalan</item>
+        <item>@string/tamil</item>
+        <item>@string/bengali</item>
+        <item>@string/estonian</item>
+        <item>@string/croatian</item>
+        <item>@string/tatar</item>
+        <item>@string/afrikaans</item>
+        <item>@string/nepali</item>
+        <item>@string/albanian</item>
+        <item>@string/belarusian</item>
+        <item>@string/malay</item>
+        <item>@string/kannada</item>
+        <item>@string/chinese_hongkong</item>
+        <item>@string/basque</item>
+        <item>@string/telugu</item>
+        <item>@string/thai</item>
+        <item>@string/azerbaijani</item>
+        <item>@string/tagalog</item>
+        <item>@string/burmese</item>
+        <item>@string/hindi</item>
+        <item>@string/malayalam</item>
+        <item>@string/gujarati</item>
+        <item>@string/lao</item>
+        <item>@string/turkmen</item>
+    </array>
+    <array name="translator_names">
+        <item>Азат Афлитонов, Андрей Зябко (a@zyabko.ru), Timon</item>
+        <item>factorymarks, Ryunosuke Tanaka</item>
+        <item>Felix Baumann, Dieter Matissek, IrealiTY, Kevin Pang</item>
+        <item>Thomas Michiels</item>
+        <item>Niko Strijbol, Joost Hermans, Redah Bening, Rijk van Geijtenbeek, adri3650</item>
+        <item>Michał Gałężewski, godlesplay</item>
+        <item>Hadi Susanto, Ananto Bambang</item>
+        <item>Walter Pisano, Rocco Casadei (Roccobot), Vladi69, 7Dragon</item>
+        <item>Martin Martinov</item>
+        <item>Misha Kruezhev, Mack Zhang, Guangyang LI, Kevin Wang</item>
+        <item>Ondřej Zima, Petr Škaloud, Jakub Dvořák, R3gi, Cebreus</item>
+        <item>Laszlo Tamas, Hevesi János, takraj</item>
+        <item>Mateus Eduardo Araujo da Silva, Leandro Sousa, Henrique Baldy, omartins</item>
+        <item>David Pérez-Villamil</item>
+        <item>Spyros</item>
+        <item>Florin Ungureanu, Viorel Cindea Ginju</item>
+        <item>Fatih Fırıncı, H. Ender AKAR, Can Yıldız</item>
+        <item>Rostik ZHukoff, Олександр Сенін, Victor</item>
+        <item>Misha Kruezhev, Zon-Wen Deng, 李冠樺</item>
+        <item>NCAA, Rasmussch, Johan Mayner Petersen, Boinkjumper</item>
+        <item>Alex Trav., אלישיב סבח|Alex Trav., Elyashiv Sabach</item>
+        <item>Peter Kováč, Martin</item>
+        <item>TheCreator-no, JokkeTheValentin</item>
+        <item>Modar Soos, Azzaminho</item>
+        <item>Uroš Jaušovec, Andrej Poženel</item>
+        <item>Reza Carrow, شاهین احمدی, Ariarman</item>
+        <item>Rancher</item>
+        <item>Leif Larsson, FirePhoenix, PeterSweden, Andreas Wallin</item>
+        <item>David Pérez-Villamil:p</item>
+        <item>ئېلىي رۇزىھېيىت, &lt;b&gt;AlghaBiz&lt;/b&gt; (alghabiz@live.com, Abdiryim Hairulla), ئېلىي شاش</item>
+        <item>gtdcomputer, Nguyễn Thanh Tài, Nguyễn Trung Hậu, HungNHD</item>
+        <item>Nickinuse, mg2011, Mārtiņš Mežciems</item>
+        <item>Ziniman, Aapo Kinnunen, Janne Vallioniemi, Juha Kuitunen, Kepe</item>
+        <item>Daan, Evaldas Viskontas, Artūras Čerškus, Mykolaspanavas</item>
+        <item>گۆران غەریب (KuRa KuRd)|Goran Gharib (KuRa KuRd)</item>
+        <item>David Aguilera</item>
+        <item>Kumaraguru - StarsSoft, Kumar, Praveenindia</item>
+        <item>Aftabuzzaman Ullah, Rajwanur, Saimoom Safayet Akash</item>
+        <item>Tarapitha, Rivo Zängov</item>
+        <item>AG008, Dragan Bošnjak</item>
+        <item>Ирек Хаҗиев</item>
+        <item>dirk777, Sakkie Theron, Michiel Bester</item>
+        <item>सुमन्त अधिकारी , Bibek Kumar Shah</item>
+        <item>Artan Muzhaqi, Bujar Tafili</item>
+        <item>Zakhar Zhauniak</item>
+        <item>Dinsyamsuddin, Naszrul Azreen BADARUDIN, Mohd Nurfitri, あゆちゃん (♡˙︶˙♡), Peaceang</item>
+        <item>Pradyumna J, Abhinav Sreenivas, Rajashekar Bagi, Snehith A Shenoy</item>
+        <item>蘇鵬宇</item>
+        <item>Xabier Aramendi</item>
+        <item>M Sateesh</item>
+        <item>potter Lnw, benjalak Bandon, soisiam, NS-Zero, Makin Jaipa</item>
+        <item>elnur.musayev.777</item>
+        <item>JamHeads, Phoenix Eve C. Aspacio, Alain Mateo</item>
+        <item>plasplas13, bonehtutkhaung14, thethtinaung, NYEIN CHAN, heinmynn, zawminlwinggw</item>
+        <item>नित्यानंद शर्मा, ISRAR AHMED, Abhinav Jha, Prasun</item>
+        <item>Jobin Jose Lukose, Sebinthampi</item>
+        <item>MIT PANDYA, Gourinath Diojode, Hirenvasani</item>
+        <item>DöThävisâk Luangxay</item>
+        <item>Döwlet-Turkmensoft, Dovlet Rahmanov</item>
+    </array>
+    <array name="tune_subtitle_alignments">
+        <item>@string/left</item>
+        <item>@string/center</item>
+        <item>@string/right</item>
+    </array>
+    <array name="tune_touch_action_option_values">
+        <item>0</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="tune_touch_action_options">
+        <item>@string/touch_action_toggle_playback_after_show_ui</item>
+        <item>@string/touch_action_toggle_playback_with_show_ui</item>
+        <item>@string/touch_action_toggle_playback</item>
+        <item>@string/touch_action_toggle_ui</item>
+    </array>
+    <array name="tune_wheel_action_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
+    <array name="tune_wheel_actions">
+        <item>@string/automatic</item>
+        <item>@string/change_sound_volume</item>
+        <item>@string/change_brightness</item>
+        <item>@string/seek_position</item>
+    </array>
+    <array name="video_exts">
+        <item>264</item>
+        <item>265</item>
+        <item>3g2</item>
+        <item>3gp</item>
+        <item>3gp2</item>
+        <item>3gpp</item>
+        <item>3gpp2</item>
+        <item>3p2</item>
+        <item>60d</item>
+        <item>787</item>
+        <item>ajp</item>
+        <item>amv</item>
+        <item>arf</item>
+        <item>asf</item>
+        <item>avi</item>
+        <item>bik</item>
+        <item>bix</item>
+        <item>bnp</item>
+        <item>box</item>
+        <item>bs4</item>
+        <item>bsf</item>
+        <item>byu</item>
+        <item>camrec</item>
+        <item>cmrec</item>
+        <item>d3v</item>
+        <item>dav</item>
+        <item>dce</item>
+        <item>ddat</item>
+        <item>dir</item>
+        <item>divx</item>
+        <item>dlx</item>
+        <item>dmb</item>
+        <item>dpg</item>
+        <item>dsy</item>
+        <item>dv</item>
+        <item>dv4</item>
+        <item>dvr</item>
+        <item>dvr-ms</item>
+        <item>dvx</item>
+        <item>dxr</item>
+        <item>evo</item>
+        <item>eye</item>
+        <item>f4p</item>
+        <item>f4v</item>
+        <item>fbr</item>
+        <item>fbz</item>
+        <item>flv</item>
+        <item>gfp</item>
+        <item>gts</item>
+        <item>gvi</item>
+        <item>hdmov</item>
+        <item>hevc</item>
+        <item>hkm</item>
+        <item>ismv</item>
+        <item>iva</item>
+        <item>ivf</item>
+        <item>ivr</item>
+        <item>ivs</item>
+        <item>jts</item>
+        <item>jtv</item>
+        <item>k3g</item>
+        <item>lrec</item>
+        <item>lsf</item>
+        <item>m15</item>
+        <item>m1pg</item>
+        <item>m1v</item>
+        <item>m21</item>
+        <item>m2t</item>
+        <item>m2ts</item>
+        <item>m2v</item>
+        <item>m3u</item>
+        <item>m3u8</item>
+        <item>m4e</item>
+        <item>m4v</item>
+        <item>m75</item>
+        <item>mgv</item>
+        <item>mj2</item>
+        <item>mjp</item>
+        <item>mjpg</item>
+        <item>mkv</item>
+        <item>mmv</item>
+        <item>mnv</item>
+        <item>moi</item>
+        <item>moov</item>
+        <item>mov</item>
+        <item>movie</item>
+        <item>mp21</item>
+        <item>mp2v</item>
+        <item>mp4</item>
+        <item>mp4v</item>
+        <item>mpc</item>
+        <item>mpe</item>
+        <item>mpeg</item>
+        <item>mpeg4</item>
+        <item>mpg</item>
+        <item>mpg2</item>
+        <item>mpv</item>
+        <item>mpv2</item>
+        <item>mqv</item>
+        <item>mts</item>
+        <item>mtv</item>
+        <item>mvd</item>
+        <item>mve</item>
+        <item>mxf</item>
+        <item>mys</item>
+        <item>nsv</item>
+        <item>nuv</item>
+        <item>ogg</item>
+        <item>ogm</item>
+        <item>ogv</item>
+        <item>ogx</item>
+        <item>pgi</item>
+        <item>pmf</item>
+        <item>pns</item>
+        <item>pva</item>
+        <item>pvr</item>
+        <item>pxv</item>
+        <item>qt</item>
+        <item>qtm</item>
+        <item>r3d</item>
+        <item>rdb</item>
+        <item>rec</item>
+        <item>rm</item>
+        <item>rmd</item>
+        <item>rms</item>
+        <item>rmvb</item>
+        <item>roq</item>
+        <item>rp</item>
+        <item>rts</item>
+        <item>rv</item>
+        <item>scm</item>
+        <item>scn</item>
+        <item>sdp</item>
+        <item>sec</item>
+        <item>sfd</item>
+        <item>sfvidcap</item>
+        <item>skm</item>
+        <item>smk</item>
+        <item>smv</item>
+        <item>str</item>
+        <item>svi</item>
+        <item>tivo</item>
+        <item>tod</item>
+        <item>tp</item>
+        <item>tp0</item>
+        <item>tpd</item>
+        <item>trp</item>
+        <item>ts</item>
+        <item>vc1</item>
+        <item>vcr</item>
+        <item>vcv</item>
+        <item>vdat</item>
+        <item>vdo</item>
+        <item>vfw</item>
+        <item>vgz</item>
+        <item>vid</item>
+        <item>viv</item>
+        <item>vivo</item>
+        <item>vob</item>
+        <item>vp3</item>
+        <item>vp6</item>
+        <item>vp7</item>
+        <item>vro</item>
+        <item>vs4</item>
+        <item>vse</item>
+        <item>webm</item>
+        <item>wm</item>
+        <item>wmv</item>
+        <item>wtv</item>
+        <item>xvid</item>
+        <item>y4m</item>
+        <item>yuv</item>
+        <item>zmv</item>
+    </array>
+    <array name="video_hw_exts">
+        <item>pyv</item>
+    </array>
+</resources>

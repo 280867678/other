@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/interface_" android:key="category_player_interface">
+        <com.mxtech.videoplayer.preference.PlaybackThemePreference android:title="@string/list_theme" android:key="playback.theme" android:defaultValue="@string/default_playback_theme" android:entryValues="@array/playback_theme_values"/>
+        <com.mxtech.videoplayer.preference.TunerStyle android:title="@string/style" android:dialogLayout="@layout/tuner_style"/>
+        <com.mxtech.videoplayer.preference.TunerScreen android:title="@string/cfg_tuner_screen" android:summary="@string/cfg_tuner_screen_summary" android:dialogLayout="@layout/tuner_screen"/>
+        <com.mxtech.videoplayer.preference.TunerControl android:title="@string/cfg_tuner_drag" android:summary="@string/cfg_tuner_drag_summary" android:dialogLayout="@layout/tuner_touch"/>
+        <com.mxtech.videoplayer.preference.TunerNavigation android:title="@string/cfg_tuner_navigation" android:summary="@string/cfg_tuner_navigation_summary" android:dialogLayout="@layout/tuner_navigation"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/double_tap_back_key" android:key="double_tap_back_key" android:summary="@string/double_tap_back_key_summary" android:defaultValue="false"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/quick_zoom" android:key="quick_zoom" android:summary="@string/quick_zoom_summary" android:defaultValue="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/playback" android:key="category_player_playback">
+        <com.mxtech.preference.AppCompatListPreference android:entries="@array/resume_last_entries" android:title="@string/resume_last" android:key="resume_last" android:summary="@string/resume_last_summary" android:defaultValue="ask" android:entryValues="@array/resume_last_values"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/resume_only_first" android:key="resume_only_first" android:summary="@string/resume_only_first_explain" android:defaultValue="false"/>
+        <com.mxtech.preference.PercentDialogPreference android:numeric="integer" android:title="@string/default_playback_speed" android:key="default_playback_speed" android:defaultValue="100" app:minValue="25" app:maxValue="400" app:showResetButton="true"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/remember_selections" android:key="remember_selections" android:summary="@string/remember_selections_summary" android:defaultValue="true"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/back_to_list" android:key="back_to_list" android:summary="@string/back_to_list_summary" android:defaultValue="false"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/seek_previews" android:key="seek_previews" android:summary="@string/seek_previews_summary" android:defaultValue="false"/>
+        <com.mxtech.preference.ListIntegerPreference android:entries="@array/three_states_texts" android:title="@string/seek_previews_net" android:key="seek_previews_net.2" android:summary="@string/seek_previews_net_summary" android:dependency="seek_previews" android:defaultValue="2" android:entryValues="@array/three_states_as_string"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/fast_seek" android:key="fast_seek" android:summary="@string/fast_seek_summary" android:defaultValue="true"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/audio_focus" android:key="audio_focus" android:summary="@string/audio_focus_summary" android:defaultValue="true" android:minSdkVersion="8"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/media_buttons" android:key="media_buttons" android:summary="@string/media_buttons_summary" android:defaultValue="true" android:minSdkVersion="8"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/prevnext_to_rewff" android:key="prevnext_to_rewff" android:summary="@string/prevnext_to_rewff_summary" android:dependency="media_buttons" android:defaultValue="false" android:minSdkVersion="8"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/toggle_on_media_play_button" android:key="toggle_on_media_play_button" android:summary="@string/toggle_on_media_play_button_summary" android:dependency="media_buttons" android:defaultValue="false" android:minSdkVersion="8"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/smart_prev" android:key="smart_prev" android:summary="@string/smart_prev_summary" android:defaultValue="true"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/suppress_error_message" android:key="suppress_error_message" android:summary="@string/suppress_error_message_desc" android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sticky">
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/sticky" android:key="sticky" android:summary="@string/sticky_summary" android:defaultValue="false" android:disableDependentsState="true"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/sticky_audio" android:key="sticky_audio" android:summary="@string/sticky_audio_summary" android:dependency="sticky" android:defaultValue="true"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/album_art" android:key="album_art" android:summary="@string/display_album_art_on_lock_screen" android:defaultValue="true" android:minSdkVersion="21"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/miscellaneous" android:key="category_player_misc">
+        <com.mxtech.preference.AppCompatEditTextPreference android:singleLine="true" android:title="@string/cfg_zoom_delay" android:key="video_zoom_delay" android:summary="@string/cfg_zoom_delay_summary" android:dialogMessage="@string/cfg_zoom_delay_message" android:inputType="number"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/zoom_limited" android:key="video_zoom_limited" android:summary="@string/zoom_limited_summary" android:defaultValue="false"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/button_backlight_off" android:key="button_backlight_off" android:summary="@string/button_backlight_off_summary" android:defaultValue="false" android:minSdkVersion="8"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/loading_circle_animation" android:key="loading_circle_animation" android:defaultValue="true"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/soft_main_keys" android:key="soft_main_keys" android:summary="@string/soft_main_keys_summary" android:defaultValue="false" android:minSdkVersion="14"/>
+        <com.mxtech.preference.ListIntegerPreference android:title="@string/screen_lock_mode" android:key="screen_lock_mode" android:summary="@string/screen_lock_mode_summary" android:defaultValue="0" android:entryValues="@array/screen_lock_mode_values" android:maxSdkVersion="22" app:exclusiveFeatures="tv"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/android_40_compatible_mode" android:key="android_40_compatible_mode.2" android:summary="@string/android_40_compatible_mode_summary" android:defaultValue="false" android:minSdkVersion="16"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:stretchColumns="1" android:shrinkColumns="*">
+        <TableRow android:id="@+id/orientation_row" style="@style/TunerRow">
+            <TextView android:textAppearance="?android:attr/textAppearance" android:layout_height="match_parent" android:text="@string/tune_orientation" style="@style/TunerRow.TextView"/>
+            <android.support.v7.widget.AppCompatSpinner android:entries="@array/tune_orientation_options" android:id="@+id/orientation" android:layout_marginLeft="8dp" android:prompt="@string/tune_orientation" style="@style/TunerRow.Spinner"/>
+        </TableRow>
+        <TableRow android:id="@+id/fullscreen_row" style="@style/TunerRow">
+            <TextView android:textAppearance="?android:attr/textAppearance" android:layout_height="wrap_content" android:text="@string/fullscreen" style="@style/TunerRow.TextView"/>
+            <android.support.v7.widget.AppCompatSpinner android:entries="@array/fullscreen" android:id="@+id/fullscreen" android:layout_marginLeft="8dp" android:prompt="@string/fullscreen" style="@style/TunerRow.Spinner"/>
+        </TableRow>
+        <TableRow android:id="@+id/soft_buttons_row" style="@style/TunerRow">
+            <TextView android:textAppearance="?android:attr/textAppearance" android:layout_height="wrap_content" android:text="@string/soft_buttons" style="@style/TunerRow.TextView"/>
+            <android.support.v7.widget.AppCompatSpinner android:entries="@array/soft_buttons" android:id="@+id/soft_buttons" android:layout_marginLeft="8dp" android:prompt="@string/soft_buttons" style="@style/TunerRow.Spinner"/>
+        </TableRow>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/brightness_row">
+            <CheckBox android:textAppearance="?android:attr/textAppearance" android:id="@+id/brightnessEnable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tune_enable_brightness" style="@style/TunerRow.CheckBox"/>
+            <SeekBar android:id="@+id/brightness" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="0px" android:layout_height="wrap_content" android:layout_weight="1" style="@style/TunerRow.SeekBar"/>
+            <TextView android:id="@+id/brightnessText" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TunerRow.TextView"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal">
+            <CheckBox android:id="@+id/alwaysShowElapsedTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/elapsed_time" android:layout_weight="1" style="@style/TunerRow.CheckBox"/>
+            <CheckBox android:id="@+id/alwaysShowStatusText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/status_text" android:layout_weight="1" style="@style/TunerRow.CheckBox"/>
+        </LinearLayout>
+        <TableLayout android:shrinkColumns="*" style="@style/TunerRow">
+            <TableRow android:gravity="center_vertical" android:paddingLeft="20dp">
+                <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(" style="@style/TunerRow.TextView"/>
+                <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:minWidth="30dp" android:text="@string/cfg_tuner_subtitle_text" android:maxLines="2" style="@style/TunerRow.TextView"/>
+                <afzkl.development.mColorPicker.views.ColorPanelView android:id="@+id/osd_text_color" android:layout_width="40dp" android:layout_marginLeft="6dp" style="@style/TunerRow.ColorPaneView"/>
+                <CheckBox android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/osd_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="@string/tune_subtitle_background" android:maxLines="2" style="@style/TunerRow.CheckBox"/>
+                <afzkl.development.mColorPicker.views.ColorPanelView android:id="@+id/osd_back_color" android:layout_width="40dp" android:layout_marginLeft="4dp" style="@style/TunerRow.ColorPaneView"/>
+                <CheckBox android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/osd_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="@string/place_at_the_bottom" android:maxLines="2" style="@style/TunerRow.CheckBox"/>
+                <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text=")" style="@style/TunerRow.TextView"/>
+            </TableRow>
+        </TableLayout>
+        <CheckBox android:id="@+id/screen_rotation_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/screen_rotation_button" style="@style/TunerRow.CheckBox"/>
+        <CheckBox android:id="@+id/battery_clock_in_title_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/battery_clock_in_title_bar" style="@style/TunerRow.CheckBox"/>
+        <CheckBox android:id="@+id/showLeftTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/show_left_time" style="@style/TunerRow.CheckBox"/>
+        <CheckBox android:id="@+id/alwaysShowStatusBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/status_bar" style="@style/TunerRow.CheckBox"/>
+        <CheckBox android:id="@+id/softButtons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/auto_hide_soft_buttons" style="@style/TunerRow.CheckBox"/>
+        <CheckBox android:id="@+id/keepScreenOn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/keep_screen_on" style="@style/TunerRow.CheckBox"/>
+        <CheckBox android:id="@+id/pause_if_obscured" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pause_if_obscured" style="@style/TunerRow.CheckBox"/>
+        <CheckBox android:id="@+id/show_interface_at_the_startup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/show_interface_at_the_startup" style="@style/TunerRow.CheckBox"/>
+    </TableLayout>
+</ScrollView>

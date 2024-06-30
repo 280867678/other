@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/FloatDragViewdemo/app/src/main/res/drawable/download_ad_background.xml" value="0.253125" />
+        <entry key="..\:/AndroidStudioProjects/FloatDragViewdemo/app/src/main/res/drawable/download_bottom_delete_selector.xml" value="0.3175925925925926" />
+        <entry key="..\:/AndroidStudioProjects/FloatDragViewdemo/app/src/main/res/drawable/download_center_bottom_pause_selector.xml" value="0.3175925925925926" />
+        <entry key="..\:/AndroidStudioProjects/FloatDragViewdemo/app/src/main/res/drawable/download_center_bottom_start_selector.xml" value="0.3175925925925926" />
+        <entry key="..\:/AndroidStudioProjects/FloatDragViewdemo/app/src/main/res/drawable/recommend_ad_ratingbar.xml" value="0.253125" />
+        <entry key="..\:/AndroidStudioProjects/FloatDragViewdemo/app/src/main/res/drawable/task_card_tag_gray_bkg.xml" value="0.253125" />
+        <entry key="..\:/AndroidStudioProjects/FloatDragViewdemo/app/src/main/res/layout/download_center_bottom_view.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidStudioProjects/FloatDragViewdemo/app/src/main/res/layout/download_center_select_file_view.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidStudioProjects/FloatDragViewdemo/app/src/main/res/layout/download_center_task_detail_btl_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/FloatDragViewdemo/app/src/main/res/layout/download_center_taskdetail_layout.xml" value="0.275" />
+        <entry key="..\:/AndroidStudioProjects/FloatDragViewdemo/app/src/main/res/layout/fragment_task_detail.xml" value="0.30185185185185187" />
+        <entry key="..\:/AndroidStudioProjects/FloatDragViewdemo/app/src/main/res/layout/fragment_task_list_page.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidStudioProjects/FloatDragViewdemo/app/src/main/res/layout/layout_task_card_close.xml" value="0.23697916666666666" />
+        <entry key="..\:/AndroidStudioProjects/FloatDragViewdemo/app/src/main/res/layout/layout_task_detail_ad_style_download_list.xml" value="0.23697916666666666" />
+        <entry key="..\:/AndroidStudioProjects/FloatDragViewdemo/app/src/main/res/layout/layout_task_detail_other_info.xml" value="0.1734375" />
+        <entry key="..\:/AndroidStudioProjects/FloatDragViewdemo/app/src/main/res/layout/layout_task_detail_play_downing.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidStudioProjects/FloatDragViewdemo/app/src/main/res/layout/layout_task_detail_title.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidStudioProjects/FloatDragViewdemo/app/src/main/res/layout/layout_task_empty.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

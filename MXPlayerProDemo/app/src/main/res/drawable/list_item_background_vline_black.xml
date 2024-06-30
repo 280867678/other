@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:state_selected="true">
+        <layer-list>
+            <item android:id="@+id/colorAccent" android:drawable="@android:color/transparent"/>
+            <item>
+                <inset android:drawable="@color/list_sel_background_black" android:insetLeft="4dp"/>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_checked="true">
+        <layer-list>
+            <item android:id="@+id/colorAccent" android:drawable="@android:color/transparent"/>
+            <item>
+                <inset android:drawable="@color/list_alt_background_black" android:insetLeft="4dp"/>
+            </item>
+        </layer-list>
+    </item>
+</selector>

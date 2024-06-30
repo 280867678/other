@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/open_url_expalin"/>
+    <TextView android:textColor="?android:attr/textColorSecondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10sp" android:text="@string/open_url_example"/>
+    <LinearLayout android:orientation="horizontal" android:background="?attr/editTextBackground" android:addStatesFromChildren="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+        <com.mxtech.videoplayer.widget.PersistentTextView android:ellipsize="none" android:id="@android:id/edit" android:background="@null" android:layout_width="0px" android:layout_height="wrap_content" android:minHeight="32sp" android:maxLines="100" android:scrollHorizontally="false" android:selectAllOnFocus="true" android:layout_weight="1" android:inputType="textMultiLine" android:imeOptions="actionGo" app:noLineFeed="true" app:table="DirectOpenLog" app:completionThreshold="1"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/clear_btn" android:background="?attr/selectableItemBackgroundBorderless" android:paddingLeft="6dp" android:paddingRight="6dp" android:focusable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="6dp" android:src="@drawable/abc_ic_clear_mtrl_alpha" android:scaleType="centerInside"/>
+    </LinearLayout>
+</LinearLayout>

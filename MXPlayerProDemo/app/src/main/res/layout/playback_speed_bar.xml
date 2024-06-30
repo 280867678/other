@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/playback_speed_bar" android:background="@drawable/bk_playback_floating_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:layout_marginBottom="4dp">
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content">
+        <TextView android:textSize="13sp" android:textStyle="bold" android:textColor="#ccc" android:layout_gravity="center_vertical" android:paddingLeft="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/playback_speed" android:layout_weight="1"/>
+        <ImageButton android:id="@+id/close" android:background="?attr/actionBarItemBackground" android:layout_width="42dp" android:layout_height="42dp" android:src="@drawable/ic_close_999_24dp" android:scaleType="center"/>
+    </LinearLayout>
+    <TableRow android:gravity="center" android:paddingLeft="4dp" android:paddingRight="4dp">
+        <com.mxtech.widget.CircleZoomButton android:id="@+id/dec" android:background="@null" android:src="@drawable/minus" android:scaleType="center" style="@style/PlaybackFloatingButton"/>
+        <EditText android:textSize="15sp" android:textColor="#ccc" android:gravity="center" android:id="@+id/text" android:layout_height="wrap_content" android:minWidth="56sp" android:inputType="numberDecimal"/>
+        <TextView android:textSize="13sp" android:textColor="#ccc" android:gravity="center" android:layout_height="wrap_content" android:minWidth="13sp" android:text="%"/>
+        <com.mxtech.widget.CircleZoomButton android:id="@+id/inc" android:background="@null" android:src="@drawable/plus" android:scaleType="center" style="@style/PlaybackFloatingButton"/>
+    </TableRow>
+</TableLayout>

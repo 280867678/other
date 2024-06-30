@@ -1,0 +1,75 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 31
+//    buildToolsVersion "32.1.0-rc1"
+
+    defaultConfig {
+        applicationId "cn.jzvd.demo.tse20240619"
+        minSdkVersion 16
+        targetSdkVersion 31
+        versionCode 107
+        versionName "7.7.0"
+        multiDexEnabled true
+        ndk {
+            // add support lib
+            abiFilters 'armeabi-v7a' , 'arm64-v8a'//, "mips"  //,'armeabi''x86',, 'x86_64',
+        }
+    }
+    signingConfigs {
+        releaseConfig {
+            storeFile file("jzvd-keystore")
+            storePassword "123456"
+            keyAlias "key0"
+            keyPassword "123456"
+        }
+    }
+    buildTypes {
+        debug {//测试时会用到
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.releaseConfig
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.releaseConfig
+        }
+    }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+    lintOptions {
+        abortOnError false
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':library')
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'com.google.android.exoplayer:exoplayer:2.12.1'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'com.github.wseemann:FFmpegMediaMetadataRetriever-core:1.0.15'
+    implementation 'com.github.wseemann:FFmpegMediaMetadataRetriever-native:1.0.15'
+    implementation 'com.github.ittianyu:BottomNavigationViewEx:2.0.4'
+    implementation 'com.github.ctiao:DanmakuFlameMaster:0.9.25'
+    implementation 'com.github.ctiao:ndkbitmap-armv7a:0.9.21'
+    implementation 'com.danikula:videocache:2.7.0'
+    implementation 'com.aliyun.sdk.android:AliyunPlayer:4.5.0-full'
+    implementation 'com.alivc.conan:AlivcConan:0.9.5'
+    implementation 'com.scwang.smart:refresh-layout-kernel:2.0.1'
+    implementation 'com.scwang.smart:refresh-header-material:2.0.1'
+    implementation 'com.scwang.smart:refresh-footer-classics:2.0.1'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-java:0.8.8'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.8.4'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.3'
+
+}

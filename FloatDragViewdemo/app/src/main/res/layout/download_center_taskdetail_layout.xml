@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/task_detail_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.7"
+        android:background="@color/black_" />
+
+    <RelativeLayout
+        android:id="@+id/status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_height"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/close_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/sniffer_results_status_bar_margin"
+            android:paddingTop="@dimen/sniffer_results_status_bar_margin"
+            android:paddingRight="@dimen/sniffer_results_status_bar_margin"
+            android:paddingBottom="@dimen/sniffer_results_status_bar_margin"
+            android:src="@drawable/download_center_detail_close_selector" />
+
+        <ImageView
+            android:id="@+id/detail_title_right_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="13dp"
+            android:src="@drawable/download_center_detail_more_selector" />
+
+        <ImageView
+            android:id="@+id/detail_title_share_icon"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_toLeftOf="@+id/detail_title_right_icon"
+            android:gravity="center"
+            android:padding="13.5dp"
+            android:src="@drawable/download_detail_share_icon_selector"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/fragment_task_detail"
+        android:name="com.example.floatdragview.TaskDetailFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/expand_view"
+        android:layout_below="@+id/status_bar"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/expand_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
+
+    <com.example.floatdragview.widget.DownloadCenterSelectFileTitleView
+        android:id="@+id/select_file_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <com.example.floatdragview.widget.DownloadCenterBottomView
+        android:id="@+id/bottom_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
+</RelativeLayout>

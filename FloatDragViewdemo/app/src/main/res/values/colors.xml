@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="common_blue">#1294F6</color>
+    <color name="task_card_accent_color_blue">#1294F6</color>
+    <color name="white_opacity_40">#66FFFFFF</color>
+    <color name="blue_status_bar">#052C4B</color>
+
+
+
+    <color name="DownloadTaskItemStatusTextColor">#9C9C9C</color>
+    <color name="task_card_title_color">#3C3C3C</color>
+    <color name="task_card_title_color_disable">#9C9C9C</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_">#000000</color>
+    <color name="common_content_bkg_color">#f0f1f2</color>
+    <color name="search_line_color">#e4e4e4</color>
+    <color name="detail_sharebar_text">#979AA0</color>
+    <color name="global_text_color_2">#333333</color>
+    <color name="task_card_accent_color_orange">#FF733B</color>
+    <color name="common_blue_button_normal">#1AA3FF</color>
+    <color name="download_list_detail_color_t2">#979AA0</color>
+    <color name="download_list_detail_color_t3">#333333</color>
+    <color name="download_detail_fold_background_press_color">#E6E6E6</color>
+    <color name="play_record_item_bg_normal">#FFFFFF</color>
+    <color name="download_list_detail_color_t5">#3B424C</color>
+    <color name="task_card_title_color_style2">#3B424C</color>
+    <color name="download_list_detail_color_t1">#333333</color>
+    <color name="download_list_ad_icon_default">#EFEFF0</color>
+    <color name="task_card_subtitle_color">#9C9C9C</color>
+    <color name="download_list_bottom_enable">#9B9DB1</color>
+    <color name="download_list_bottom_disable">#E1E1E7</color>
+
+
+</resources>

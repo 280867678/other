@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mxtech.preference.AppCompatListPreference android:title="@string/language" android:key="user_locale" android:defaultValue=""/>
+    <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/hw_accel" android:key="subtitle_hw_accel" android:summary="@string/playback_screen_hw_accel_summary" android:defaultValue="true" android:minSdkVersion="11" app:dispose="@bool/default_hardware_acceleration"/>
+    <com.mxtech.preference.AppCompatCheckBoxPreference android:persistent="false" android:title="@string/play_video_links" android:key="play_video_links" android:summary="@string/play_video_links_summary" android:defaultValue="true"/>
+    <com.mxtech.videoplayer.preference.HttpUserAgentPreference android:title="@string/http_user_agent" android:key="http_user_agent.2" android:summary="@string/http_user_agent_summary"/>
+    <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/show_quit_button" android:key="quit_button" android:summary="@string/show_quit_button_summary" android:defaultValue="false"/>
+    <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/tv_mode" android:key="tv_mode" android:summary="@string/tv_mode_desc" android:defaultValue="@bool/default_tv_mode" app:exclusiveFeatures="tv_system"/>
+    <PreferenceCategory android:title="@string/menu_edit">
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/allow_edits" android:key="allow_edits" android:summary="@string/allow_edits_summary" android:defaultValue="true"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/delete_subtitle_files_together" android:key="delete_subtitle_files_together" android:defaultValue="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/user_data">
+        <com.mxtech.preference.AppCompatPreference android:persistent="false" android:title="@string/cfg_clear_history" android:key="clear_history" android:summary="@string/cfg_clear_history_summary"/>
+        <com.mxtech.preference.AppCompatPreference android:persistent="false" android:title="@string/cfg_clear_thumbnail" android:key="clear_thumbnail" android:summary="@string/cfg_clear_thumbnail_summary"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/cache_thumbnail" android:key="cache_thumbnail" android:defaultValue="true"/>
+        <com.mxtech.preference.AppCompatPreference android:persistent="false" android:title="@string/clear_font_cache" android:key="clear_font_cache" android:summary="@string/clear_font_cache_summary"/>
+        <com.mxtech.preference.AppCompatPreference android:persistent="false" android:title="@string/reset_settings" android:key="reset_settings" android:summary="@string/reset_settings_explain"/>
+        <com.mxtech.preference.AppCompatPreference android:persistent="false" android:title="@string/export" android:key="export" android:summary="@string/export_explain"/>
+        <com.mxtech.preference.AppCompatPreference android:persistent="false" android:title="@string/import_from_file" android:key="import_from_file" android:summary="@string/import_from_file_explain"/>
+    </PreferenceCategory>
+</PreferenceScreen>

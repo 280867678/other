@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:stretchColumns="1" android:shrinkColumns="*">
+        <TableRow style="@style/TunerRow">
+            <TextView android:textAppearance="?android:attr/textAppearance" android:id="@+id/gesture_seek_speed_label" android:layout_height="wrap_content" style="@style/TunerRow.TextView"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal">
+                <SeekBar android:id="@+id/gesture_seek_speed" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/TunerRow.SeekBar"/>
+                <TextView android:id="@+id/gesture_seek_speed_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TunerRow.TextView"/>
+            </LinearLayout>
+        </TableRow>
+        <CheckBox android:id="@+id/showMoveButtons" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tune_navi_show_move_buttons" style="@style/TunerRow.CheckBox"/>
+        <TableRow style="@style/TunerRow">
+            <TextView android:textAppearance="?android:attr/textAppearance" android:layout_height="wrap_content" android:text="@string/tune_navi_move_interval" style="@style/TunerRow.TextView"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal">
+                <SeekBar android:id="@+id/moveInterval" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/TunerRow.SeekBar"/>
+                <TextView android:id="@+id/moveIntervalText" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TunerRow.TextView"/>
+            </LinearLayout>
+        </TableRow>
+        <CheckBox android:id="@+id/show_prev_next" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/prev_next_buttons" style="@style/TunerRow.CheckBox"/>
+        <CheckBox android:id="@+id/display_seeking_position" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/display_seeking_position" style="@style/TunerRow.CheckBox"/>
+    </TableLayout>
+</ScrollView>

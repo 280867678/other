@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource>
+    <charset icon="ISO-8859-6" title="Arabic"/>
+    <charset icon="Cp1256" title="Arabic"/>
+    <charset icon="Cp1257" title="Baltic"/>
+    <charset icon="ISO-8859-13" title="Baltic"/>
+    <charset icon="ISO-8859-4" title="Baltic, Scandinavia"/>
+    <charset icon="ISO-8859-14" title="Celtic"/>
+    <charset icon="ISO-8859-2" title="Central European, Slavic"/>
+    <charset icon="MS936" title="Chinese, Simplified"/>
+    <charset icon="GB18030" title="Chinese, Simplified"/>
+    <charset icon="EUC_CN" title="Chinese, Simplified"/>
+    <charset icon="GBK" title="Chinese, Simplified"/>
+    <charset icon="ISO-2022-CN" title="Chinese, Simplified"/>
+    <charset icon="MS950" title="Chinese, Traditional"/>
+    <charset icon="MS950_HKSCS" title="Chinese, Traditional (Hong Kong)"/>
+    <charset icon="Big5" title="Chinese, Traditional"/>
+    <charset icon="Big5-HKSCS" title="Chinese, Traditional (Hong Kong)"/>
+    <charset icon="Cp1251" title="Cyrillic"/>
+    <charset icon="ISO-8859-5" title="Cyrillic"/>
+    <charset icon="Cp1250" title="Eastern European"/>
+    <charset icon="Cp1253" title="Greek"/>
+    <charset icon="ISO-8859-7" title="Greek"/>
+    <charset icon="ISO-8859-8" title="Hebrew"/>
+    <charset icon="Cp1255" title="Hebrew"/>
+    <charset icon="ISCII91" title="Indic scripts"/>
+    <charset icon="MS932" title="Japanese"/>
+    <charset icon="EUC_JP" title="Japanese"/>
+    <charset icon="Shift_JIS" title="Japanese"/>
+    <charset icon="ISO-2022-JP" title="Japanese"/>
+    <charset icon="MS949" title="Korean"/>
+    <charset icon="EUC_KR" title="Korean"/>
+    <charset icon="ISO-2022-KR" title="Korean"/>
+    <charset icon="ISO-8859-10" title="Nordic"/>
+    <charset icon="ISO-8859-16" title="Romanian"/>
+    <charset icon="KOI8_R" title="Russian"/>
+    <charset icon="ISO-8859-3" title="South European"/>
+    <charset icon="TIS-620" title="Thai"/>
+    <charset icon="ISO-8859-11" title="Thai"/>
+    <charset icon="Cp1254" title="Turkish"/>
+    <charset icon="ISO-8859-9" title="Turkish"/>
+    <charset icon="UTF-8" title="Unicode"/>
+    <charset icon="UTF-16" title="Unicode"/>
+    <charset icon="UTF-16BE" title="Unicode"/>
+    <charset icon="UTF-16LE" title="Unicode"/>
+    <charset icon="UTF-32" title="Unicode"/>
+    <charset icon="UTF-32BE" title="Unicode"/>
+    <charset icon="UTF-32LE" title="Unicode"/>
+    <charset icon="US-ASCII"/>
+    <charset icon="Cp1258" title="Vietnamese"/>
+    <charset icon="ISO-8859-1" title="Western European"/>
+    <charset icon="ISO-8859-15" title="Western European"/>
+    <charset icon="Cp1252" title="Western European (ANSI)"/>
+</resource>

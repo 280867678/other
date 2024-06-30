@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:shrinkColumns="*">
+        <TableRow android:id="@+id/touch_action_row" style="@style/TunerRow">
+            <TextView android:textAppearance="?android:attr/textAppearance" android:layout_height="wrap_content" android:text="@string/tune_touch_action" style="@style/TunerRow.TextView"/>
+            <android.support.v7.widget.AppCompatSpinner android:entries="@array/tune_touch_action_options" android:id="@+id/touch_action" android:layout_marginLeft="8dp" android:prompt="@string/tune_touch_action" style="@style/TunerRow.Spinner"/>
+        </TableRow>
+        <TableRow android:id="@+id/keyboard_action_row" style="@style/TunerRow">
+            <TextView android:textAppearance="?android:attr/textAppearance" android:layout_height="wrap_content" android:text="@string/key_updown_action" style="@style/TunerRow.TextView"/>
+            <android.support.v7.widget.AppCompatSpinner android:entries="@array/key_updown_actions" android:id="@+id/key_updown_action" android:layout_marginLeft="8dp" android:prompt="@string/key_updown_action" style="@style/TunerRow.Spinner"/>
+        </TableRow>
+        <TableRow android:id="@+id/wheel_action_row" style="@style/TunerRow">
+            <TextView android:textAppearance="?android:attr/textAppearance" android:layout_height="wrap_content" android:text="@string/wheel_action" style="@style/TunerRow.TextView"/>
+            <android.support.v7.widget.AppCompatSpinner android:entries="@array/tune_wheel_actions" android:id="@+id/wheel_action" android:layout_marginLeft="8dp" android:prompt="@string/wheel_action" style="@style/TunerRow.Spinner"/>
+        </TableRow>
+        <TableRow android:id="@+id/lock_mode_row" style="@style/TunerRow">
+            <TextView android:textAppearance="?android:attr/textAppearance" android:layout_height="wrap_content" android:text="@string/lock_mode" style="@style/TunerRow.TextView"/>
+            <android.support.v7.widget.AppCompatSpinner android:id="@+id/lock_mode" android:layout_marginLeft="8dp" android:prompt="@string/lock_mode" style="@style/TunerRow.Spinner"/>
+        </TableRow>
+        <TextView android:id="@+id/gestures_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="2dp" android:layout_marginBottom="2dp" android:text="@string/tune_drag_tab" style="@style/TunerRow.TextView"/>
+        <TableLayout android:id="@+id/gestures_group" android:background="@drawable/group_back" android:padding="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:stretchColumns="*" android:shrinkColumns="*">
+            <TableRow style="@style/TunerRow">
+                <CheckBox android:id="@+id/video_seeking" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/seek_position" style="@style/TunerRow.CheckBox"/>
+                <CheckBox android:id="@+id/zoom_and_pan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zoom_and_pan" style="@style/TunerRow.CheckBox"/>
+            </TableRow>
+            <TableRow style="@style/TunerRow">
+                <CheckBox android:id="@+id/zoom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zoom" style="@style/TunerRow.CheckBox"/>
+                <CheckBox android:id="@+id/pan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pan" style="@style/TunerRow.CheckBox"/>
+            </TableRow>
+            <TableRow style="@style/TunerRow">
+                <CheckBox android:id="@+id/volume" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/volume" style="@style/TunerRow.CheckBox"/>
+                <CheckBox android:id="@+id/brightness" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tune_enable_brightness" style="@style/TunerRow.CheckBox"/>
+            </TableRow>
+            <TableRow style="@style/TunerRow">
+                <CheckBox android:id="@+id/double_tap_play_pause" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TunerRow.CheckBox"/>
+                <CheckBox android:id="@+id/double_tap_zoom" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TunerRow.CheckBox"/>
+            </TableRow>
+            <TableRow style="@style/TunerRow">
+                <CheckBox android:id="@+id/playback_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/playback_speed" style="@style/TunerRow.CheckBox"/>
+                <CheckBox android:id="@+id/subtitle_scroll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/subtitle_scroll" style="@style/TunerRow.CheckBox"/>
+            </TableRow>
+            <TableRow style="@style/TunerRow">
+                <CheckBox android:id="@+id/subtitle_updown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/subtitle_updown" style="@style/TunerRow.CheckBox"/>
+                <CheckBox android:id="@+id/subtitle_zoom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/subtitle_zoom" style="@style/TunerRow.CheckBox"/>
+            </TableRow>
+        </TableLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal">
+            <CheckBox android:textAppearance="?android:attr/textAppearance" android:id="@+id/interface_auto_hide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/interface_auto_hide" style="@style/TunerRow.CheckBox"/>
+            <SeekBar android:id="@+id/interface_auto_hide_delay" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="0px" android:layout_height="wrap_content" android:minWidth="100dp" android:layout_weight="1" style="@style/TunerRow.SeekBar"/>
+            <TextView android:id="@+id/interface_auto_hide_delay_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TunerRow.TextView"/>
+        </LinearLayout>
+        <CheckBox android:id="@+id/lock_show_interface" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lock_show_interface_on_touch" style="@style/TunerRow.CheckBox"/>
+    </TableLayout>
+</ScrollView>

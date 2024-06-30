@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/decoder_hardware" android:key="category_hardware_decoder">
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/omxdecoder_use" android:key="omxdecoder.2"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/omxdecoder_local" android:key="omxdecoder_local" android:summary="@string/omxdecoder_local_summary" android:dependency="omxdecoder.2" android:defaultValue="true"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/omxdecoder_net" android:key="omxdecoder_net" android:summary="@string/omxdecoder_net_summary" android:dependency="omxdecoder.2" android:defaultValue="true"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/try_hw_if_omx_fails" android:key="try_hw_if_omx_fails" android:summary="@string/try_hw_if_omx_fails_summary" android:dependency="omxdecoder.2" android:defaultValue="@bool/default_try_hw_if_omx_fails"/>
+        <com.mxtech.preference.AppCompatPreference android:title="@string/omx_video_codecs" android:key="omx_video_codecs.3" android:summary="@string/omx_video_codecs_summary" android:dependency="omxdecoder.2"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/omx_audio_with_sw_video" android:key="omx_audio_with_sw_video" android:summary="@string/omx_audio_with_sw_video_summary" android:defaultValue="true"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/try_omx_if_hw_fails" android:key="try_omx_if_hw_fails" android:summary="@string/try_omx_if_hw_fails_summary" android:defaultValue="false"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/correct_hw_aspect_ratio" android:key="correct_hw_aspect_ratio" android:summary="@string/correct_hw_aspect_ratio_summary" android:defaultValue="true"/>
+        <com.mxtech.preference.EditFloatPreference android:numeric="decimal" android:title="@string/calibrate_hw_play_position" android:key="calibrate_hw_play_position" android:summary="@string/calibrate_hw_play_position_summary" android:defaultValue="0" android:dialogMessage="@string/calibrate_hw_play_position_message"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/hw_audio_track_selectable" android:key="hw_audio_track_selectable" android:summary="@string/hw_audio_track_selectable_summary" android:defaultValue="false" android:minSdkVersion="16"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/decoder_software">
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/swdecoder_local" android:key="swdecoder_local" android:summary="@string/swdecoder_local_summary" android:defaultValue="false"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/default_swdecoder_net" android:key="swdecoder_net" android:summary="@string/default_swdecoder_net_summary" android:defaultValue="false"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/cfg_default_swaudio" android:key="default_swaudio" android:summary="@string/cfg_default_swaudio_summary" android:defaultValue="false"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/swaudio_local" android:key="swaudio_local" android:summary="@string/swaudio_local_summary" android:defaultValue="false"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/swaudio_net" android:key="swaudio_net" android:summary="@string/swaudio_net_summary" android:defaultValue="false"/>
+        <com.mxtech.preference.AppCompatListPreference android:title="@string/core_limit" android:key="core_limit" android:summary="@string/core_limit_summary" android:defaultValue="0"/>
+        <com.mxtech.preference.AppCompatListPreference android:entries="@array/color_format_entries" android:title="@string/color_format" android:key="color_format" android:summary="@string/color_format_summary" android:defaultValue="rgb565" android:entryValues="@array/color_format_values"/>
+        <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/use_speedup_tricks" android:key="use_speedup_tricks" android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/cfg_general" android:key="category_general">
+        <com.mxtech.preference.ListIntegerPreference android:entries="@array/deinterlacer_names" android:title="@string/menu_deinterlace" android:key="default_deinterlacer" android:summary="@string/cfg_default_deinterlace_summary" android:defaultValue="0" android:entryValues="@array/deinterlacer_values"/>
+        <com.mxtech.preference.AppCompatPreference android:title="@string/custom_codec" android:key="custom_codec" android:summary="@string/custom_codec_summary"/>
+        <com.mxtech.preference.AppCompatPreference android:title="@string/download_custom_codec" android:key="download_custom_codec"/>
+    </PreferenceCategory>
+</PreferenceScreen>

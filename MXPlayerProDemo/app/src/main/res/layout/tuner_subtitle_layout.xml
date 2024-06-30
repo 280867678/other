@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:stretchColumns="1" android:shrinkColumns="*">
+        <TableRow style="@style/TunerRow">
+            <TextView android:textAppearance="?android:attr/textAppearance" android:layout_height="wrap_content" android:text="@string/tune_subtitle_alignment" style="@style/TunerRow.TextView"/>
+            <android.support.v7.widget.AppCompatSpinner android:entries="@array/tune_subtitle_alignments" android:id="@+id/subtitleAlignment" android:layout_marginLeft="8dp" android:prompt="@string/tune_subtitle_alignment_prompt" style="@style/TunerRow.Spinner"/>
+        </TableRow>
+        <TableRow style="@style/TunerRow">
+            <TextView android:textAppearance="?android:attr/textAppearance" android:layout_height="wrap_content" android:text="@string/tune_subtitle_bottom_padding" style="@style/TunerRow.TextView"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal">
+                <SeekBar android:id="@+id/subtitleBottomPadding" android:paddingLeft="15dp" android:paddingRight="15dp" android:nextFocusDown="@+id/subtitleBackgroundColor" android:layout_width="0px" android:layout_height="wrap_content" android:layout_weight="1" style="@style/TunerRow.SeekBar"/>
+                <TextView android:id="@+id/subtitleBottomPaddingText" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TunerRow.TextView"/>
+            </LinearLayout>
+        </TableRow>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal">
+            <CheckBox android:id="@+id/subtitleBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tune_subtitle_background" style="@style/TunerRow.CheckBox"/>
+            <afzkl.development.mColorPicker.views.ColorPanelView android:id="@+id/subtitleBackgroundColor" android:layout_width="40dp" android:layout_marginLeft="12dp" style="@style/TunerRow.ColorPaneView"/>
+        </LinearLayout>
+        <CheckBox android:id="@+id/fit_subtitle_overlay_to_video" android:nextFocusUp="@+id/subtitleBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/fit_subtitle_overlay_to_video" style="@style/TunerRow.CheckBox"/>
+    </TableLayout>
+</ScrollView>

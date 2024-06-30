@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name_view_when_hide_all_data"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/white"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/task_icon_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white"
+        android:paddingLeft="@dimen/task_card_padding"
+        android:paddingTop="@dimen/task_card_padding"
+        android:paddingRight="@dimen/task_card_padding"
+        android:paddingBottom="8dp">
+
+        <ImageView
+            android:id="@+id/iconImageView"
+            android:layout_width="@dimen/task_card_icon_image_width"
+            android:layout_height="@dimen/task_card_icon_image_height"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_dl_video" />
+
+        <FrameLayout
+            android:id="@+id/titleTextViewLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/task_card_padding"
+            android:layout_toRightOf="@+id/iconImageView">
+
+            <TextView
+                android:id="@+id/tagNew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="2dp"
+                android:paddingRight="4dp"
+                android:text="●"
+                android:textColor="#ff733b"
+                android:textSize="10sp" />
+
+            <FrameLayout
+                android:id="@+id/expand_text_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/titleTextView"
+                    style="@style/TaskCardTitleTextAppearanceStyle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lineSpacingExtra="@dimen/task_item_card_download_item_title_line_spacing_extra"
+                    android:maxLines="100"
+                    android:paddingTop="1dp"
+                    android:text="@string/app_name" />
+
+                <RelativeLayout
+                    android:id="@+id/title_fore_ground"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/task_detail_title_fore_ground"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/task_detail_new_name_expand_img"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="bottom|right"
+                    android:contentDescription="@string/common_imageview_contentdescription"
+                    android:src="@drawable/arrow_down"
+                    android:visibility="gone" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleTextViewLayout"
+            android:layout_alignLeft="@+id/titleTextViewLayout"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/tagEpisode"
+                style="@style/DownloadTaskItemTagAppearanceStyle2"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/task_item_card_download_item_tag_height"
+                android:layout_marginRight="@dimen/task_item_card_download_item_tag_interval_style2"
+                android:text="第一季" />
+
+            <ImageView
+                android:id="@+id/tagDivider1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/task_item_card_download_item_tag_interval_style2"
+                android:src="@drawable/download_item_tag_devider_style2"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tagSize"
+                style="@style/DownloadTaskItemTagAppearanceStyle2"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/task_item_card_download_item_tag_height"
+                android:layout_marginRight="@dimen/task_item_card_download_item_tag_interval_style2"
+                android:text="0 MB" />
+
+            <ImageView
+                android:id="@+id/tagDivider2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/task_item_card_download_item_tag_interval_style2"
+                android:src="@drawable/download_item_tag_devider_style2"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tagSnapshot"
+                style="@style/DownloadTaskItemTagAppearanceStyle2"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/task_item_card_download_item_tag_height"
+                android:layout_marginRight="@dimen/task_item_card_download_item_tag_interval_style2"
+                android:text="@string/download_item_task_snapshot_tip"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/download_status_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_info"
+            android:layout_alignLeft="@+id/titleTextViewLayout"
+            android:paddingTop="2dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/download_status_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="6dp"
+                android:src="@drawable/ic_detail_download_error_style2" />
+
+            <TextView
+                android:id="@+id/download_status_text"
+                style="@style/DownloadCenterDetailT1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="失败原因"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/speed"
+            style="@style/DownloadCenterDetailT1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_info"
+            android:layout_alignLeft="@+id/titleTextViewLayout"
+            android:layout_marginTop="2dp"
+            android:text="436K/s"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/arrow_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_info"
+            android:layout_alignRight="@+id/ll_info"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="详情"
+                android:textColor="#1aa3ff"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/arrow_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:src="@drawable/detail_speed_arrow_down" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <include
+            android:id="@+id/line"
+            layout="@layout/line"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/container1"
+            android:layout_marginLeft="@dimen/task_card_padding"
+            android:layout_marginRight="@dimen/task_card_padding" />
+    </FrameLayout>
+
+    <include layout="@layout/layout_task_detail_other_info" />
+
+    <TextView
+        android:id="@+id/detail_expand_space_view"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:visibility="gone" />
+</LinearLayout>

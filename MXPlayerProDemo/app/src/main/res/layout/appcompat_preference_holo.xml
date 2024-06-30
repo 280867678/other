@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:background="?attr/listChoiceBackgroundIndicator" android:paddingLeft="?attr/listPreferredItemPaddingLeft" android:paddingRight="?attr/listPreferredItemPaddingRight" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/listPreferredItemHeightSmall">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="@dimen/appcompat_preference_icon_minWidth">
+        <ImageView android:layout_gravity="center" android:id="@android:id/icon" android:visibility="gone" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginRight="@dimen/appcompat_preference_item_padding_inner" android:scaleType="centerInside" android:minWidth="48dp"/>
+    </LinearLayout>
+    <RelativeLayout android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="0px" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textAppearance="?attr/textAppearanceListItem" android:ellipsize="marquee" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textAppearance="?attr/textAppearanceListItemSecondary" android:textColor="?android:attr/textColorSecondary" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@android:id/title" android:layout_alignLeft="@android:id/title"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@android:id/widget_frame" android:paddingLeft="16dp" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+</LinearLayout>

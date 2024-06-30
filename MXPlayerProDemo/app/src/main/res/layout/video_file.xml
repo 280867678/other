@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/inner_preference_horz_padding" android:paddingRight="@dimen/inner_preference_horz_padding" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.mxtech.widget.ListView2 android:id="@android:id/list" android:nextFocusRight="@+id/reset" android:nextFocusDown="@+id/add" android:layout_width="match_parent" android:layout_height="0px" android:listSelector="?attr/listChoiceBackgroundIndicator" android:dividerHeight="@dimen/border_width" android:choiceMode="multipleChoice" android:layout_weight="1" android:fastScrollEnabled="true" android:smoothScrollbar="true"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/buttonBarStyle">
+        <Button android:layout_gravity="center" android:id="@+id/add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add" android:layout_weight="1" style="?attr/buttonBarButtonStyle"/>
+        <Button android:layout_gravity="center" android:id="@+id/remove" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remove" android:layout_weight="1" style="?attr/buttonBarButtonStyle"/>
+        <Button android:layout_gravity="center" android:id="@+id/change" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/decoder" android:layout_weight="1" style="?attr/buttonBarButtonStyle"/>
+        <com.mxtech.widget.ActionButton android:id="@+id/reset" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_restore_white_24dp" android:layout_weight="1" android:title="@string/menu_revert_to_default" style="?attr/buttonBarButtonStyle"/>
+    </LinearLayout>
+</LinearLayout>

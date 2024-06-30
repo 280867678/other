@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/task_detail_info"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/task_card_padding"
+    android:paddingRight="@dimen/task_card_padding">
+
+    <RelativeLayout
+        android:id="@+id/source_container"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/white"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/web_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="27dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/web_site_title"
+                android:layout_width="wrap_content"
+                android:layout_height="19dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/web_site_icon_iv"
+                android:gravity="center"
+                android:text="资源来源"
+                android:textColor="@color/download_list_detail_color_t2"
+                android:textSize="12sp"
+                tools:ignore="UnknownId" />
+
+            <LinearLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_toRightOf="@+id/web_site_title"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/web_site_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="19dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:lines="1"
+                    android:text="迅雷迅雷迅雷迅雷迅雷迅雷迅雷迅雷"
+                    android:textColor="#333333"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/task_ref_url"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_below="@+id/container"
+                    android:layout_marginLeft="1dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:lines="1"
+                    android:text="wwww.baidu.com"
+                    android:textColor="#9c9c9c"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_collection"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="6dp"
+            android:paddingTop="13dp"
+            android:paddingBottom="13dp"
+            android:src="@drawable/dl_collection_icon_selector" />
+
+        <include
+            android:id="@+id/download_size_line"
+            layout="@layout/line"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/download_task_detail_speed_info_margin_top" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/download_size_container"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp">
+
+        <TextView
+            android:id="@+id/download_size_text"
+            style="@style/DownloadCenterDetailT2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="资源大小" />
+
+        <TextView
+            android:id="@+id/downloaded_size"
+            style="@style/DownloadCenterDetailT3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/download_task_detail_speed_info_margin_left"
+            android:layout_toRightOf="@+id/download_size_text"
+            android:text="1.3:GB" />
+
+        <include
+            android:id="@+id/download_size_line"
+            layout="@layout/line"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/download_task_detail_speed_info_margin_top" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/progressContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp">
+
+        <TextView
+            android:id="@+id/progress_text"
+            style="@style/DownloadCenterDetailT2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="下载进度" />
+
+        <TextView
+            android:id="@+id/progress"
+            style="@style/DownloadCenterDetailT3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/download_task_detail_speed_info_margin_left"
+            android:layout_toRightOf="@+id/progress_text"
+            android:text="0%" />
+
+        <include
+            android:id="@+id/download_progress_line"
+            layout="@layout/line"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/linked_resource_container"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp">
+
+        <TextView
+            android:id="@+id/download_linked_resource_text"
+            style="@style/DownloadCenterDetailT2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="资源数量" />
+
+        <TextView
+            android:id="@+id/download_linked_resource"
+            style="@style/DownloadCenterDetailT3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/download_task_detail_speed_info_margin_left"
+            android:layout_toRightOf="@+id/download_linked_resource_text"
+            android:text="84/88" />
+
+        <include
+            android:id="@+id/download_link_line"
+            layout="@layout/line"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/max_speed_container"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp">
+
+        <TextView
+            android:id="@+id/download_max_speed_text"
+            style="@style/DownloadCenterDetailT2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="最快速度" />
+
+        <TextView
+            android:id="@+id/download_max_speed"
+            style="@style/DownloadCenterDetailT3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/download_task_detail_speed_info_margin_left"
+            android:layout_toRightOf="@+id/download_max_speed_text"
+            android:text="197.2KB/s" />
+
+        <include
+            android:id="@+id/download_max_line"
+            layout="@layout/line"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/container_need_fold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/aver_speed_container"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp">
+
+            <TextView
+                android:id="@+id/download_aver_speed_text"
+                style="@style/DownloadCenterDetailT2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="平均速度" />
+
+            <TextView
+                android:id="@+id/download_aver_speed"
+                style="@style/DownloadCenterDetailT3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/download_task_detail_speed_info_margin_left"
+                android:layout_toRightOf="@+id/download_aver_speed_text"
+                android:text="197.2KB/s" />
+
+            <include
+                android:id="@+id/download_aver_line"
+                layout="@layout/line"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/save_time_container"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp">
+
+            <TextView
+                android:id="@+id/download_save_time_text"
+                style="@style/DownloadCenterDetailT2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="节省时间" />
+
+            <TextView
+                android:id="@+id/download_save_time"
+                style="@style/DownloadCenterDetailT3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/download_task_detail_speed_info_margin_left"
+                android:layout_toRightOf="@+id/download_save_time_text"
+                android:text="17分50秒" />
+
+            <include
+                android:id="@+id/download_save_line"
+                layout="@layout/line"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/create_speed_container"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp">
+
+            <TextView
+                android:id="@+id/download_create_time_text"
+                style="@style/DownloadCenterDetailT2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="创建时间" />
+
+            <TextView
+                android:id="@+id/download_create_time"
+                style="@style/DownloadCenterDetailT3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/download_task_detail_speed_info_margin_left"
+                android:layout_toRightOf="@+id/download_create_time_text"
+                android:text="2016-04-20 23:48:27" />
+
+            <include
+                android:id="@+id/download_create_line"
+                layout="@layout/line"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/finish_time_container"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/finish_time_text"
+                style="@style/DownloadCenterDetailT2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="完成时间" />
+
+            <TextView
+                android:id="@+id/finish_time"
+                style="@style/DownloadCenterDetailT3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/download_task_detail_speed_info_margin_left"
+                android:layout_toRightOf="@+id/finish_time_text"
+                android:text="2016-04-20 23:48:27" />
+
+            <include
+                android:id="@+id/download_finish_time_line"
+                layout="@layout/line"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/task_url_container"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/task_url_text"
+                style="@style/DownloadCenterDetailT2"
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:gravity="center"
+                android:text="资源链接" />
+
+            <TextView
+                android:id="@+id/task_url_content"
+                style="@style/DownloadCenterDetailT3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/download_task_detail_speed_info_margin_left"
+                android:layout_marginTop="13dp"
+                android:layout_toLeftOf="@+id/right_arrow_icon"
+                android:layout_toRightOf="@+id/task_url_text"
+                android:ellipsize="end"
+                android:gravity="top|left"
+                android:text="--测试测试-----" />
+
+            <ImageView
+                android:id="@+id/right_arrow_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="22dp"
+                android:paddingLeft="11dp"
+                android:src="@drawable/detail_speed_arrow_down"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/download_max_line"
+                layout="@layout/line"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/task_detail_fold_container"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@drawable/download_detail_base_info_fold_selector"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/task_detail_fold_text"
+                style="@style/DownloadCenterDetailT5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="收起" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6dp"
+                android:layout_toRightOf="@+id/task_detail_fold_text"
+                android:src="@drawable/detail_speed_arrow_up" />
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/download_fold_line"
+            layout="@layout/line"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true" />
+    </LinearLayout>
+</LinearLayout>

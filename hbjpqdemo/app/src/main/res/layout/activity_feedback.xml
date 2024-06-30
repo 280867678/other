@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:adjustViewBounds="true"
+            android:padding="@dimen/dp_5"
+            android:src="@mipmap/nav_icon_back_black"
+            app:tint="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_40"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            android:padding="@dimen/dp_5"
+            android:text="反馈问题"
+            android:textColor="@color/C_303133"
+            android:textSize="@dimen/sp_18"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:adjustViewBounds="true"
+            android:background="#d8d8d8"
+            android:gravity="center"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="@dimen/dp_16"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="问题与建议"
+            android:textColor="@color/C_303133"
+            android:textSize="@dimen/dp_16" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@drawable/bg19"
+            android:orientation="vertical"
+            android:padding="@dimen/dp_16">
+
+            <EditText
+                android:id="@+id/edit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_150"
+                android:background="@null"
+                android:gravity="start"
+                android:hint="请描述的遇到的问题或建议"
+                android:maxLength="200"
+                android:textSize="@dimen/dp_16" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="0/200" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@drawable/bg19"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingRight="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系方式"
+                android:textColor="@color/C_303133" />
+
+            <EditText
+                android:id="@+id/contact_edit"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:background="@null"
+                android:digits="@string/filter_vcode"
+                android:hint="请输入邮箱/qq/手机号"
+                android:inputType="number"
+                android:maxLines="1"
+                android:paddingLeft="@dimen/dp_16"
+                android:textSize="@dimen/dp_16" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="您的联系方式有助于我们及时和您沟通，仅工作人员可见。"
+            android:textColor="#969799" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="上传问题截图"
+            android:textColor="@color/C_303133"
+            android:textSize="@dimen/dp_16" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp_20">
+
+        <TextView
+            android:id="@+id/comment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_45"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_16"
+            android:background="@drawable/send"
+            android:gravity="center"
+            android:text="提 交"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp_16"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>

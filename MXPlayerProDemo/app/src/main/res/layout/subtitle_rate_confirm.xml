@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8dp">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="?attr/dialogPreferredPadding" android:paddingRight="?attr/dialogPreferredPadding" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@android:id/message" android:paddingTop="@dimen/abc_dialog_padding_top_material" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TextAppearance.AppCompat.Subhead"/>
+        <com.mxtech.widget.RatingBar2 android:layout_gravity="center_horizontal" android:id="@+id/rating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:numStars="5" android:stepSize="1" style="?attr/ratingBarStyle"/>
+        <TextView android:textColor="?attr/colorAccent" android:layout_gravity="center_horizontal" android:id="@+id/rating_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.AppCompat.Small"/>
+        <LinearLayout android:orientation="horizontal" android:background="?attr/editTextBackground" android:addStatesFromChildren="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+            <EditText android:id="@+id/comment" android:background="@null" android:layout_width="0px" android:layout_height="32sp" android:hint="@string/comment" android:layout_weight="1" android:inputType="text" android:imeOptions="actionDone"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/clear_btn" android:background="?attr/selectableItemBackgroundBorderless" android:paddingLeft="6dp" android:paddingRight="6dp" android:focusable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="6dp" android:src="@drawable/abc_ic_clear_mtrl_alpha" android:scaleType="centerInside"/>
+        </LinearLayout>
+        <TextView android:textColor="@color/red_alert" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/warning" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.AppCompat.Small"/>
+    </LinearLayout>
+</ScrollView>

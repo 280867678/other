@@ -1,0 +1,71 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- 
+<script type="text/javascript">
+function startVersionCheck( s ) {
+	document.getElementById('version_check_text').style.visibility = 'visible';
+	document.getElementById('version_check_text').innerHTML = ' ' + s;
+}
+function finishVersionCheck( s ) {
+	document.getElementById('version_check_text').style.visibility = 'hidden';
+	document.getElementById('version_check_text').innerHTML = ' ' + s;
+} 
+</script> 
+-->
+<style type="text/css">
+	body { font-size: 0.9em; color:%(secondary_text_color); line-height:130%25; }
+	h4 { font-size: 1.1em; color:%(primary_text_color); font-weight:bold; border-bottom:1px solid %(line_color); padding-bottom:0.17em; margin-bottom:0.6em;}
+	a:link { color:%(secondary_text_color) }
+	a:visited { color:%(secondary_text_color) }
+	.title { font-size: 1.4em; color:%(primary_text_color); }
+	.small-text { font-size: 0.8em; }
+	.small-line { line-height: .06em; }
+</style>
+</head>
+<body style="padding-top:0.8em;" dir="%(direction)">
+<p>
+	<font class="small-line"><br/></font>
+	<font style="font-size: 1.4em; font-weight:bold; color:%(primary_text_color);">%(label)</font>
+    <font class="small-text">
+        &nbsp;
+        <%licensed
+            <img src="ic_licensed.png" width="11px" height="11px" style="vertical-align:baseline"/>
+            <span>%(license_statement)</span>
+        %>
+        <%not_licensed
+            <img src="ic_not_licensed.png" width="12.8px" height="11px" style="vertical-align:baseline"/>
+            <span>%(license_statement)</span>
+        %>
+    </font>
+	<br/>
+	<br/>
+	<font class="small-line"><br/></font>
+	<font class="small-text">
+		%(version) (%(cpu_arch)%(custom_codec_version))<br/>
+		<!-- <br><img id="version_check_progress" style="vertical-align:middle" src="loading.gif"/><span id="version_check_text"/> -->
+		Copyright (c) J2 Interactive 2011, 2016. All rights reserved.
+	</font>
+</p>
+<br/><br/>
+<h4>%(support)</h4>
+%(support_content)
+<p>
+	<b>%(home)</b> - <a href="%(home_url)">%(home_url)</a><br/>
+	<b>%(faq)</b> - <a href="%(faq_url)">%(faq_url)</a><br/>
+	<b>%(forum)</b> - <a href="%(forum_url)">%(forum_url)</a><br/>
+	<b>%(translation_project)</b> - <a href="http://crowdin.net/project/mx-video-player/invite">http://crowdin.net/project/mx-video-player/invite</a><br/>
+	<font style="visibility:%(display_fdb)"><b>%(fdb)</b> - <a href="%(fdb_real_url)">%(fdb_display_url)</a><br/></font>
+</p>
+
+<h4>%(thanks_to)</h4>
+%(translators)
+<p>
+<a href="http://www.opensubtitles.org"><img src="logo_opensubtitles.png"/></a>
+</p>
+%(thanks_to_all)
+
+<h4>%(open_source_license)</h4>
+%(open_source_license_content)
+</body>
+</html>

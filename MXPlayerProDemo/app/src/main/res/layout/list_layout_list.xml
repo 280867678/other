@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mxtech.widget.FlatListView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@android:id/list" android:nextFocusRight="@+id/media_scan" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="?attr/listChoiceBackgroundIndicator" android:divider="@null" android:fastScrollEnabled="true"/>

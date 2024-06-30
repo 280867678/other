@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_action_play" android:id="@+id/play_last" android:menuCategory="container" android:orderInCategory="1" android:alphabeticShortcut="p" app:showAsAction="always"/>
+    <item android:icon="@drawable/ic_action_media_scan" android:id="@+id/media_scan" android:menuCategory="container" android:orderInCategory="2" android:title="@string/refresh" android:alphabeticShortcut="r" app:showAsAction="always"/>
+    <item android:icon="@drawable/ic_action_search" android:id="@+id/search" android:menuCategory="container" android:orderInCategory="4" android:title="@android:string/search_go" app:showAsAction="ifRoom"/>
+    <item android:id="@+id/open_url" android:menuCategory="container" android:orderInCategory="5" android:title="@string/open_url" android:alphabeticShortcut="n"/>
+    <item android:id="@+id/view" android:menuCategory="container" android:orderInCategory="6" android:title="@string/view" android:alphabeticShortcut="v">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/all_folders" android:title="@string/all_folders" android:numericShortcut="1"/>
+                <item android:id="@+id/folders" android:numericShortcut="2"/>
+                <item android:id="@+id/files" android:numericShortcut="3"/>
+            </group>
+            <item android:id="@+id/sort_by" android:title="@string/sort_by" android:alphabeticShortcut="s"/>
+            <item android:id="@+id/fields" android:title="@string/fields" android:alphabeticShortcut="f"/>
+        </menu>
+    </item>
+    <item android:id="@+id/select" android:menuCategory="container" android:orderInCategory="7" android:title="@string/select" android:alphabeticShortcut="e"/>
+    <item android:id="@+id/preference" android:menuCategory="container" android:orderInCategory="8" android:title="@string/settings"/>
+    <item android:id="@+id/help" android:menuCategory="container" android:orderInCategory="9" android:title="@string/help" android:alphabeticShortcut="h">
+        <menu>
+            <item android:id="@+id/whats_new" android:title="@string/whats_new"/>
+            <item android:id="@+id/features" android:title="@string/features"/>
+            <item android:id="@+id/faq" android:title="@string/faq"/>
+            <item android:id="@+id/checkVersion" android:title="@string/version_check"/>
+            <item android:id="@+id/send_bug_report" android:title="@string/error_report"/>
+            <item android:id="@+id/about" android:title="@string/cfg_info"/>
+        </menu>
+    </item>
+    <item android:id="@+id/quit" android:menuCategory="container" android:orderInCategory="10" android:title="@string/quit" android:alphabeticShortcut="x"/>
+</menu>

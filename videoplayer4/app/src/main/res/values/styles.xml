@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="supremeAppearance" parent="">
+        <item name="android:textSize">52sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+
+    <style name="PlaybackDarkTheme" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="colorAccent">@color/darkgray_accent</item>
+        <item name="alertDialogTheme">@style/DarkGrayAlertDialogTheme</item>
+    </style>
+
+
+
+
+    <style name="DarkGrayAlertDialogTheme" parent="@style/AlertDialog.DarkBase">
+        <item name="colorAccent">@color/darkgray_accent</item>
+        <item name="alertDialogTheme">@style/DarkGrayAlertDialogTheme</item>
+    </style>
+
+
+    <style name="AlertDialog.DarkBase" parent="@style/Theme.AppCompat.Dialog.Alert">
+        <item name="android:colorBackground">@color/background_material_dark</item>
+        <item name="android:windowBackground">@color/background_material_dark</item>
+    </style>
+
+
+</resources>

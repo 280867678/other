@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <view
+        android:id="@+id/top_layout"
+        class="com.mxtech.videoplayer.circleclip.MainActivity$TopLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/systemWindowFittable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/overscanMarginHorizontal"
+            android:layout_marginTop="@dimen/overscanMarginVertical"
+            android:layout_marginRight="@dimen/overscanMarginHorizontal"
+            android:layout_marginBottom="@dimen/overscanMarginVertical"
+            android:fitsSystemWindows="false">
+            <view
+                android:id="@+id/ui_layout"
+                class="com.mxtech.videoplayer.circleclip.MainActivity$UILayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </view>
+        </RelativeLayout>
+        <ViewStub
+            android:id="@+id/tap_seek_view_stub"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/tap_seek_container" />
+    </view>
+
+
+</FrameLayout>

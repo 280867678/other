@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:paddingLeft="?attr/dialogPreferredPadding" android:paddingRight="?attr/dialogPreferredPadding" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8dp">
+    <com.mxtech.widget.ListView2 android:id="@android:id/list" android:background="@color/gray_background" android:layout_width="match_parent" android:layout_height="0px" android:layout_marginTop="16dp" android:listSelector="?attr/listChoiceBackgroundIndicator" android:layout_weight="1"/>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+        <Button android:id="@+id/search_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:text="@string/search_title" style="?attr/buttonBarButtonStyle"/>
+        <Button android:id="@+id/new_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/new_title" style="?attr/buttonBarButtonStyle"/>
+    </LinearLayout>
+    <TextView android:textColor="@color/red_alert" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/warning" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.AppCompat.Small"/>
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DownloadCenterTabLayoutStyle" parent="@style/Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/task_card_accent_color_blue</item>
+        <item name="tabTextColor">@color/white_opacity_40</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+    </style>
+
+    <style name="DownloadTaskItemSecondaryTitleTextAppearance" parent="">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/DownloadTaskItemStatusTextColor</item>
+    </style>
+
+    <style name="DownloadTaskItemTagAppearance" parent="@style/DownloadTaskItemTagTextAppearance">
+        <item name="android:background">@drawable/download_item_tag_bkg</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+
+    <style name="DownloadTaskItemTagTextAppearance" parent="">
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">#a0a0a0</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="TaskCardTitleTextAppearance" parent="">
+        <item name="android:textSize">@dimen/task_card_title_size</item>
+        <item name="android:textColor">@color/task_card_title_color_selector</item>
+    </style>
+
+
+
+
+    <style name="DownloadTaskItemButtonAppearance" parent="">
+        <item name="android:textSize">@dimen/task_card_button_text_size</item>
+        <item name="android:textColor">@color/global_text_color_2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/task_card_button_gray</item>
+    </style>
+
+    <style name="TaskCardBlueButtonAppearance" parent="">
+        <item name="android:textSize">@dimen/task_card_button_text_size</item>
+        <item name="android:textColor">@color/task_card_accent_color_blue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/task_card_button_blue</item>
+    </style>
+
+
+    <style name="DownloadCenterDetailT2" parent="">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/download_list_detail_color_t2</item>
+    </style>
+
+    <style name="DownloadCenterDetailT3" parent="">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/download_list_detail_color_t3</item>
+    </style>
+
+    <style name="DownloadCenterDetailT5" parent="">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/download_list_detail_color_t5</item>
+    </style>
+
+
+    <style name="TaskCardTitleTextAppearanceStyle2" parent="">
+        <item name="android:textSize">@dimen/task_card_title_size_style2</item>
+        <item name="android:textColor">@color/task_card_title_color_style2_selector</item>
+    </style>
+
+    <style name="DownloadTaskItemTagAppearanceStyle2" parent="@style/DownloadTaskItemTagTextAppearance">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="DownloadCenterDetailT1" parent="">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/download_list_detail_color_t1</item>
+    </style>
+
+
+    <style name="recommend_ad_rating_bar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/recommend_ad_ratingbar</item>
+        <item name="android:minWidth">12dp</item>
+        <item name="android:minHeight">11dp</item>
+        <item name="android:numStars">5</item>
+        <item name="android:stepSize">0.5</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+
+
+    <style name="TaskCardPromotionTagAppearance" parent="">
+        <item name="android:textSize">@dimen/task_card_promotion_tag_text_size</item>
+        <item name="android:textColor">@color/task_card_subtitle_color</item>
+        <item name="android:background">@drawable/task_card_tag_gray_bkg</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+
+
+</resources>

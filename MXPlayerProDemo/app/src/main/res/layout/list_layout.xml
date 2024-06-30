@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/list_layout_list"/>
+    <TextView android:textAppearance="?attr/listNormalTextAppearance" android:gravity="center_horizontal" android:id="@android:id/empty" android:paddingLeft="12sp" android:paddingTop="24sp" android:paddingRight="12sp" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

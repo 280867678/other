@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:columnCount="4">
+
+        <TextView
+            style="@style/TunerRow.TextView"
+            android:text="@string/preset"
+            android:textAppearance="?android:attr/textAppearance"
+            app:layout_column="0"
+            app:layout_gravity="fill" />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/preset"
+            style="@style/TunerRow.Spinner"
+            android:layout_marginLeft="8dp"
+            android:entries="@array/screen_presets"
+            android:prompt="@string/preset"
+            app:layout_column="1"
+            android:layout_columnSpan="2"
+            app:layout_gravity="fill" />
+
+        <TextView
+            style="@style/TunerRow.TextView"
+            android:text="@string/frame"
+            android:textAppearance="?android:attr/textAppearance"
+            app:layout_column="0"
+            app:layout_gravity="fill" />
+
+        <afzkl.development.mColorPicker.views.ColorPanelView
+            android:id="@+id/frame_color"
+            style="@style/TunerRow.ColorPaneView"
+            android:layout_width="40dp"
+            android:layout_marginLeft="8dp"
+            app:layout_column="1" />
+
+        <CheckBox
+            android:id="@+id/frame_border"
+            style="@style/TunerRow.CheckBox"
+            android:text="@string/tune_subtitle_border_color"
+            app:layout_column="2" />
+
+        <TextView
+            style="@style/TunerRow.TextView"
+            android:text="@string/control"
+            android:textAppearance="?android:attr/textAppearance"
+            app:layout_column="0"
+            app:layout_gravity="fill" />
+
+        <afzkl.development.mColorPicker.views.ColorPanelView
+            android:id="@+id/control_normal_color"
+            style="@style/TunerRow.ColorPaneView"
+            android:layout_width="40dp"
+            android:layout_marginLeft="8dp"
+            app:layout_column="1" />
+
+        <afzkl.development.mColorPicker.views.ColorPanelView
+            android:id="@+id/control_highlight_color"
+            style="@style/TunerRow.ColorPaneView"
+            android:layout_width="40dp"
+            android:layout_marginLeft="4dp"
+            app:layout_column="2" />
+
+        <TextView
+            style="@style/TunerRow.TextView"
+            android:text="@string/progress_bar"
+            android:textAppearance="?android:attr/textAppearance"
+            app:layout_column="0"
+            app:layout_gravity="fill" />
+
+        <afzkl.development.mColorPicker.views.ColorPanelView
+            android:id="@+id/progress_bar_color"
+            style="@style/TunerRow.ColorPaneView"
+            android:layout_width="40dp"
+            android:layout_marginLeft="8dp"
+            app:layout_column="1" />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/progress_bar_style"
+            style="@style/TunerRow.Spinner"
+            android:layout_marginLeft="4dp"
+            android:entries="@array/progress_bar_styles"
+            android:prompt="@string/progress_bar_style"
+            app:layout_column="2"
+            app:layout_gravity="fill" />
+
+        <CheckBox
+            android:id="@+id/place_progress_bar_below_buttons"
+            style="@style/TunerRow.CheckBox"
+            android:text="@string/place_progress_bar_below_buttons"
+            app:layout_column="0"
+            android:layout_columnSpan="4" />
+
+        <CheckBox
+            android:id="@+id/put_background_on_on_screen_buttons"
+            style="@style/TunerRow.CheckBox"
+            android:text="@string/put_background_on_on_screen_buttons"
+            app:layout_column="0"
+            android:layout_columnSpan="4" />
+    </GridLayout>
+</ScrollView>

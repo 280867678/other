@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MxPlayerDemo210316</string>
+    <string name="error_reinstall_app">应用安装不正确。请完全卸载并重新安装。</string>
+    <string name="error_reinstall_codec">编解码器安装不正确。请完全卸载并重新安装。</string>
+    <string name="error_unsupported_architecture">不支持的设备</string>
+    <string name="error_codec_version">安装的编解码器已过时，请重新安装最新版本。</string>
+    <string name="error_player_version">您的应用版本太旧，无法使用已安装的编解码器，请升级到最新版。</string>
+    <string name="error_codec_not_found">尚未安装编解码器。 请按 %1$s 下载安装。</string>
+    <string name="obsolete_custom_codec">自定义编解码器太旧。请用新版代替。</string>
+    <string name="omx_decoder_alt_init_failure">无法初始化备用版硬件解码器+。</string>
+    <string name="omx_decoder_init_failure">无法初始化备用版硬件解码器+。</string>
+    <string name="error_load_components">组件文件已损坏或 Android 内部模块与当前版本的 MX 播放器不兼容。</string>
+    <string name="default_playback_theme">black_blueAccent</string>
+</resources>

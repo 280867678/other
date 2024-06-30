@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mxtech.preference.AppCompatCheckBoxPreference android:persistent="false" android:title="@string/audio_player" android:key="audio_player" android:summary="@string/audio_player_summary" android:defaultValue="false"/>
+    <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/volume_boost" android:key="volume_boost" android:summary="@string/volume_boost_summary" android:defaultValue="@bool/default_volume_boost"/>
+    <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/sync_system_volume" android:key="sync_system_volume" android:summary="@string/sync_system_volume_explain" android:defaultValue="true" app:exclusiveFeatures="tv"/>
+    <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/headset_show_system_volume_ui" android:key="headset_show_system_volume_ui" android:summary="@string/headset_show_system_volume_ui_summary" android:dependency="sync_system_volume" android:defaultValue="true" android:minSdkVersion="18" app:exclusiveFeatures="tv"/>
+    <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/pause_on_headset_disconnected" android:key="pause_on_headset_disconnected" android:summary="@string/pause_on_headset_disconnected_explain" android:defaultValue="true"/>
+    <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/audio_fade_in_on_start" android:key="audio_fade_in_on_start" android:defaultValue="true"/>
+    <com.mxtech.preference.AppCompatCheckBoxPreference android:title="@string/audio_fade_in_on_seek" android:key="audio_fade_in_on_seek" android:defaultValue="true"/>
+    <com.mxtech.videoplayer.preference.LocaleSelectorPreference android:title="@string/audio_language" android:key="audio_language" android:summary="@string/audio_language_summary"/>
+    <com.mxtech.preference.EditFloatPreference android:numeric="decimal" android:title="@string/audio_delay" android:key="audio_delay" android:summary="@string/audio_delay_summary" android:defaultValue="0" android:dialogMessage="@string/calibrate_hw_play_position_message"/>
+    <com.mxtech.preference.EditFloatPreference android:numeric="decimal" android:title="@string/bluetooth_audio_delay" android:key="bluetooth_audio_delay" android:summary="@string/bluetooth_audio_delay_summary" android:defaultValue="0" android:dialogMessage="@string/calibrate_hw_play_position_message" android:minSdkVersion="11"/>
+</PreferenceScreen>

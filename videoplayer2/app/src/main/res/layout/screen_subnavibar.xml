@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/subNaviBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:gravity="center"
+    android:shrinkColumns="*"
+    android:stretchColumns="0,8">
+
+    <View
+        android:id="@+id/subNaviBarTopPadder"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:tag="styleable.frame" />
+
+    <TableRow android:id="@+id/subNaviBarButtonContainer">
+
+        <View
+            android:id="@+id/subNaviBarLeftSpace"
+            android:layout_width="0px"
+            android:layout_height="@dimen/screen_subnavibar_height"
+            android:tag="styleable.frame" />
+
+        <ImageButton
+            android:id="@+id/lock"
+            android:layout_height="@dimen/screen_subnavibar_height"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:longClickable="true"
+            android:minWidth="120dp"
+            android:nextFocusLeft="@+id/zoom"
+            android:nextFocusRight="@+id/prev"
+            android:src="@drawable/ic_button_locks"
+            android:tag="styleable.button" />
+
+        <ImageButton
+            android:id="@+id/prev"
+            android:layout_height="@dimen/screen_subnavibar_height"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:minWidth="120dp"
+            android:src="@drawable/ic_button_prev"
+            android:tag="styleable.button" />
+
+        <ZoomButton
+            android:id="@+id/backward"
+            android:layout_height="@dimen/screen_subnavibar_height"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:minWidth="120dp"
+            android:scaleType="center"
+            android:src="@drawable/ic_button_backward"
+            android:tag="styleable.button" />
+
+        <ImageButton
+            android:id="@+id/playpause"
+            android:layout_height="@dimen/screen_subnavibar_height"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:longClickable="true"
+            android:minWidth="120dp"
+            android:src="@drawable/ic_button_play_pause"
+            android:tag="styleable.button" />
+
+        <ZoomButton
+            android:id="@+id/forward"
+            android:layout_height="@dimen/screen_subnavibar_height"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:minWidth="120dp"
+            android:scaleType="center"
+            android:src="@drawable/ic_button_forward"
+            android:tag="styleable.button" />
+
+        <ImageButton
+            android:id="@+id/next"
+            android:layout_height="@dimen/screen_subnavibar_height"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:longClickable="true"
+            android:minWidth="120dp"
+            android:src="@drawable/ic_button_next"
+            android:tag="styleable.button" />
+
+        <ZoomButton
+            android:id="@+id/zoom"
+            android:layout_height="@dimen/screen_subnavibar_height"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:longClickable="true"
+            android:minWidth="120dp"
+            android:nextFocusLeft="@+id/next"
+            android:nextFocusRight="@+id/lock"
+            android:scaleType="center"
+            android:src="@drawable/ic_button_zoom"
+            android:tag="styleable.button" />
+
+        <View
+            android:id="@+id/subNaviBarRightSpace"
+            android:layout_width="0px"
+            android:layout_height="@dimen/screen_subnavibar_height"
+            android:tag="styleable.frame" />
+    </TableRow>
+
+    <View
+        android:id="@+id/subNaviBarBottomPadder"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:tag="styleable.frame" />
+</TableLayout>

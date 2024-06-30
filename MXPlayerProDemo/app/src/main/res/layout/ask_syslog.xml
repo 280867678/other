@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="12dp" android:layout_marginRight="12dp" android:layout_marginBottom="4dp" android:text="@string/ask_syslog"/>
+        <CheckBox android:id="@+id/sys_log" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="4dp" android:layout_marginRight="4dp" android:layout_marginBottom="4dp" android:checked="true" android:text="@string/sys_log"/>
+        <CheckBox android:id="@+id/sys_settings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="4dp" android:layout_marginRight="4dp" android:layout_marginBottom="4dp" android:checked="true" android:text="@string/sys_settings"/>
+        <CheckBox android:id="@+id/app_settings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="4dp" android:layout_marginRight="4dp" android:layout_marginBottom="4dp" android:checked="true" android:text="@string/app_settings"/>
+        <CheckBox android:id="@+id/save_to_a_file" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="4dp" android:layout_marginRight="4dp" android:layout_marginBottom="4dp" android:text="@string/save_to_a_file"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/comment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12dp"/>
+    </LinearLayout>
+</ScrollView>

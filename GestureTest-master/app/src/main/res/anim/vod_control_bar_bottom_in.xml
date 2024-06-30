@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="@anim/player_interpolator">
+    <alpha android:duration="@integer/vod_player_control_bar_top_bottom_in_duration" android:fromAlpha="0" android:toAlpha="1"/>
+</set>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="m"
+            type="com.example.videoplayer.entity.VideoInfo" />
+        <import type="com.blankj.utilcode.util.ConvertUtils"/>
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/item"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:paddingHorizontal="10dp"
+        android:foreground="?android:selectableItemBackground"
+        android:orientation="horizontal">
+
+        <!-- 定义一个用于显示图像的 ImageView -->
+        <com.lihang.ShadowLayout
+            android:id="@+id/iv_container"
+            android:layout_width="132dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center_horizontal"
+            android:baselineAlignBottom="true"
+            app:clickable="false"
+            app:hl_cornerRadius="@dimen/common_corners"
+            app:hl_layoutBackground="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="start"
+                    android:maxLines="1"
+                    android:text='@{m.displayName}'
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:background="#4D999999"
+                    android:elevation="1dp"
+                    tools:text="谍影重重" />
+
+                <ImageView
+                    android:id="@+id/iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/iv_video" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:progressDrawable="@drawable/bg_progressbar"
+                    android:layout_alignParentBottom="true"
+                    android:layout_height="2dp"/>
+            </RelativeLayout>
+        </com.lihang.ShadowLayout>
+
+        <TextView
+            android:id="@+id/tv_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_container"
+            app:layout_constraintStart_toStartOf="@+id/iv_container"
+            tools:text="00:00" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

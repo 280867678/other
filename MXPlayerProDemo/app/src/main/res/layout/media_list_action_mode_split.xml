@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:stretchColumns="0,5" android:shrinkColumns="*">
+    <TableRow>
+        <View android:layout_width="0px" android:layout_height="match_parent"/>
+        <com.mxtech.widget.ActionButton android:id="@+id/all" android:layout_height="match_parent" android:src="@drawable/ic_check_white_24dp" android:minWidth="120dp" android:layout_weight="1" android:title="@string/select_all" style="?attr/actionButtonStyle"/>
+        <com.mxtech.widget.ActionButton android:id="@+id/mark_as" android:layout_height="match_parent" android:src="@drawable/ic_label_outline_white_24dp" android:minWidth="120dp" android:layout_weight="1" android:title="@string/mark_as" style="?attr/actionButtonStyle"/>
+        <com.mxtech.widget.ActionButton android:id="@+id/delete" android:layout_height="match_parent" android:src="@drawable/ic_delete_white_24dp" android:minWidth="120dp" android:layout_weight="1" android:title="@string/menu_delete" style="?attr/actionButtonStyle"/>
+        <com.mxtech.widget.ActionButton android:id="@+id/rename" android:layout_height="match_parent" android:src="@drawable/ic_mode_edit_white_24dp" android:minWidth="120dp" android:layout_weight="1" android:title="@string/menu_rename" style="?attr/actionButtonStyle"/>
+        <View android:layout_width="0px" android:layout_height="match_parent"/>
+    </TableRow>
+</TableLayout>

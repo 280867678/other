@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12dp" android:text="@string/resume_last_ask"/>
+    <CheckBox android:id="@+id/use_by_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:text="@string/use_by_default"/>
+    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/how_to_reset" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="48dp" android:layout_marginRight="12dp"/>
+</LinearLayout>

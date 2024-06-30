@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MXPanAndZoom</string>
+
+
+    <string name="home">首页</string>
+    <string name="setting">设置</string>
+
+    <string name="player_manager_ijk">IJK 内核</string>
+    <string name="player_manager_exo">EXO 内核</string>
+    <string name="player_manager_system">系统 内核</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

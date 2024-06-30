@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/detail_card_interval"
+    android:background="@drawable/task_card_bkg"
+    android:paddingLeft="@dimen/task_card_padding"
+    android:paddingTop="@dimen/task_card_padding"
+    android:paddingRight="@dimen/task_card_padding"
+    android:paddingBottom="12dp">
+
+    <include
+        android:id="@+id/closeButton"
+        layout="@layout/layout_task_card_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="@dimen/task_card_icon_image_width"
+        android:layout_height="@dimen/task_card_icon_image_height"
+        android:background="@drawable/download_ad_background"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:layout_width="@dimen/task_card_icon_image_width"
+        android:layout_height="@dimen/task_card_icon_image_height"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/task_card_icon_mask" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        style="@style/TaskCardTitleTextAppearance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/task_card_padding"
+        android:layout_marginRight="@dimen/task_card_padding"
+        android:layout_toLeftOf="@+id/closeButton"
+        android:layout_toRightOf="@+id/iconImageView"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:maxLines="2" />
+
+    <TextView
+        android:id="@+id/tagView"
+        style="@style/TaskCardPromotionTagAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/task_card_promotion_tag_height"
+        android:layout_below="@+id/titleTextView"
+        android:layout_marginLeft="@dimen/task_card_padding"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@+id/iconImageView"
+        android:gravity="center"
+        android:minWidth="@dimen/task_card_ad_tag_min_width" />
+
+    <TextView
+        android:id="@+id/actionButton"
+        style="@style/TaskCardBlueButtonAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/task_card_button_height"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/task_card_button_fixed_margin_top"
+        android:minWidth="@dimen/task_card_button_width"
+        android:paddingLeft="@dimen/task_card_button_horizontal_padding"
+        android:paddingRight="@dimen/task_card_button_horizontal_padding" />
+
+    <TextView
+        android:id="@+id/install_count"
+        style="@style/DownloadTaskItemTagAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tagView"
+        android:layout_alignBottom="@+id/tagView"
+        android:layout_marginLeft="@dimen/task_item_card_download_item_tag_interval"
+        android:layout_toRightOf="@+id/tagView"
+        android:textColor="@color/task_card_subtitle_color"
+        android:textSize="@dimen/task_card_promotion_tag_text_size" />
+
+    <RatingBar
+        android:id="@+id/score_rb"
+        style="@style/recommend_ad_rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tagView"
+        android:layout_marginLeft="@dimen/task_item_card_download_item_tag_interval"
+        android:layout_toRightOf="@+id/install_count" />
+</RelativeLayout>

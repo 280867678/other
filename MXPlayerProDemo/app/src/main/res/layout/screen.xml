@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top_layout"
+    class="com.mxtech.videoplayer.ActivityScreen$TopLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.mxtech.videoplayer.subtitle.SubView
+        android:id="@+id/subtitleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/overscanMarginHorizontal"
+        android:layout_marginRight="@dimen/overscanMarginHorizontal"
+        android:layout_marginBottom="@dimen/overscanMarginVertical"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/systemWindowFittable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/overscanMarginHorizontal"
+        android:layout_marginTop="@dimen/overscanMarginVertical"
+        android:layout_marginRight="@dimen/overscanMarginHorizontal"
+        android:layout_marginBottom="@dimen/overscanMarginVertical"
+        android:fitsSystemWindows="true">
+
+        <com.mxtech.videoplayer.widget.PlaybackController
+            android:id="@+id/controller"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/progressPanel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:tag="styleable.frame">
+
+                <TextView
+                    android:id="@+id/posText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:hapticFeedbackEnabled="true"
+                    android:tag="styleable.text"
+                    android:textSize="14sp" />
+
+                <SeekBar
+                    android:id="@+id/progressBar"
+                    android:layout_width="0px"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:max="0"
+                    android:maxHeight="50dp"
+                    android:progressDrawable="@null"
+                    android:thumb="@null" />
+
+                <TextView
+                    android:id="@+id/durationText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="styleable.text"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <include layout="@layout/screen_subnavibar" />
+        </com.mxtech.videoplayer.widget.PlaybackController>
+
+        <include layout="@layout/screen_toolbar" />
+
+        <view
+            android:id="@+id/ui_layout"
+            class="com.mxtech.videoplayer.ActivityScreen$UILayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar">
+
+            <ImageButton
+                android:id="@+id/rotate_screen"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:focusable="true"
+                android:src="@null"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/pauseIndicator"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_below="@+id/rotate_screen"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:scaleType="center"
+                android:src="@null"
+                android:visibility="gone" />
+        </view>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/supremeContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/supremeImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/supremeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:shadowColor="#000"
+            android:shadowRadius="2"
+            android:textAppearance="@style/supremeAppearance" />
+    </LinearLayout>
+
+    <android.support.v4.widget.ContentLoadingProgressBar
+        android:id="@+id/loadingSplash"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+</view>

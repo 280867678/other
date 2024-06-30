@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.mxtech.videoplayer.preference.TunerTabLayout android:orientation="vertical" android:id="@android:id/tabhost" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="80dp">
+                <TextView android:id="@+id/styleTab" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/style" style="@style/TunerTab"/>
+                <TextView android:id="@+id/screenTab" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tune_screen_tab" style="@style/TunerTab"/>
+                <TextView android:id="@+id/dragTab" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cfg_tuner_drag" style="@style/TunerTab"/>
+                <TextView android:id="@+id/navigationTab" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tune_navigation_tab" style="@style/TunerTab"/>
+                <TextView android:id="@+id/subtitleTextTab" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cfg_tuner_subtitle_text" style="@style/TunerTab"/>
+                <TextView android:id="@+id/subtitleLayoutTab" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cfg_tuner_subtitle_layout" style="@style/TunerTab"/>
+            </com.mxtech.videoplayer.preference.TunerTabLayout>
+        </ScrollView>
+        <TextView android:background="@drawable/tuner_below_tabs" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    </LinearLayout>
+    <FrameLayout android:background="@color/tuner_selected" android:paddingLeft="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="300dp">
+        <include android:id="@+id/stylePane" android:visibility="invisible" layout="@layout/tuner_style"/>
+        <include android:id="@+id/screenPane" android:visibility="invisible" layout="@layout/tuner_screen"/>
+        <include android:id="@+id/dragPane" android:visibility="invisible" layout="@layout/tuner_touch"/>
+        <include android:id="@+id/navigationPane" android:visibility="invisible" layout="@layout/tuner_navigation"/>
+        <include android:id="@+id/subtitleTextPane" android:visibility="invisible" layout="@layout/tuner_subtitle_text"/>
+        <include android:id="@+id/subtitleLayoutPane" android:visibility="invisible" layout="@layout/tuner_subtitle_layout"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<yanzhikai.gesturetest.VideoGestureRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ly_VG"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context="yanzhikai.gesturetest.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAllCaps="true"
+        android:textColor="#E91E63"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        android:visibility="gone" />
+
+
+    <ViewStub
+        android:id="@+id/stub_speed_rate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/long_press_speed_rate_layout" />
+
+    <ViewStub
+        android:id="@+id/stub_speed_rate_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/long_press_speed_rate_scroll_layout" />
+
+
+
+    <yanzhikai.gesturetest.ShowChangeLayout
+        android:id="@+id/scl"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"></yanzhikai.gesturetest.ShowChangeLayout>
+
+</yanzhikai.gesturetest.VideoGestureRelativeLayout>

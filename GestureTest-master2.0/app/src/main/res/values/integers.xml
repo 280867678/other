@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="vod_player_control_menu_right_in_out_duration">333</integer>
+    <integer name="vod_player_control_bar_top_bottom_in_duration">350</integer>
+    <integer name="vod_player_control_bar_top_bottom_out_duration">350</integer>
+</resources>

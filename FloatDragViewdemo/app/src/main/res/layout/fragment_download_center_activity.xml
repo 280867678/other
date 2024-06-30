@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/download_center_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_height" />
+
+    <FrameLayout
+        android:id="@+id/download_center_select_file_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_height"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/tabLayout_title_container"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_below="@+id/download_center_title"
+        android:background="@color/common_blue"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/storageView_container"
+        android:layout_below="@+id/tabLayout_title_container">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/main_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/common_blue"
+                android:fitsSystemWindows="true"
+                android:measureWithLargestChild="false"
+                android:minHeight="34dp"
+                android:visibility="visible"
+                app:elevation="0dp">
+
+                <FrameLayout
+                    android:id="@+id/downloadBriefInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingBottom="8dp"
+                    android:visibility="visible"
+                    app:layout_scrollFlags="scroll" />
+
+                <FrameLayout
+                    android:id="@+id/tabLayout_appbar_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp">
+
+                    <com.google.android.material.tabs.TabLayout
+                        android:id="@+id/tabLayout"
+                        style="@style/DownloadCenterTabLayoutStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        app:tabBackground="@color/common_blue"
+                        app:tabGravity="fill"
+                        app:tabIndicatorColor="@android:color/transparent"
+                        app:tabIndicatorHeight="@dimen/download_indicator_height" />
+                </FrameLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <com.example.floatdragview.DownloadCenterViewPager
+                android:id="@+id/taskListViewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/storageView_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/expand_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:id="@+id/storageView"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_gravity="bottom" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/bottom_operate_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_go_to_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="13dp"
+        android:src="@drawable/go_to_top_selector" />
+
+    <RelativeLayout
+        android:id="@+id/cloud_sync_bottom_card"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:visibility="gone" />
+</RelativeLayout>
